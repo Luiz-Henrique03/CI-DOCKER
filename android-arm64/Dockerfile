@@ -1,0 +1,58 @@
+FROM dockcross/base:latest
+FROM gcc:latest
+
+
+MAINTAINER Matt McCormick "matt.mccormick@kitware.com"
+RUN \
+  sed -i '/debian-security/d' /etc/apt/sources.list && \
+  dpkg --add-architecture arm64 && \
+  apt-get update
+
+# The cross-compiling emulator
+RUN apt-get update && apt-get install -y \
+  qemu-user \
+  qemu-user-static \
+  unzip
+
+ENV CROSS_TRIPLE=aarch64-linux-android
+ENV CROSS_ROOT=/usr/${CROSS_TRIPLE}
+ENV ANDROID_NDK=${CROSS_ROOT}
+ENV AS=${CROSS_ROOT}/bin/llvm-as \
+    AR=${CROSS_ROOT}/bin/llvm-ar \
+    CC=${CROSS_ROOT}/bin/clang \
+    CXX=${CROSS_ROOT}/bin/clang++ \
+    LD=${CROSS_ROOT}/bin/ld
+
+ENV ANDROID_NDK_REVISION 23
+ENV ANDROID_NDK_API 23
+
+RUN mkdir -p /build && \
+    cd /build && \
+    curl -O https://dl.google.com/android/repository/android-ndk-r${ANDROID_NDK_REVISION}-linux.zip && \
+    unzip ./android-ndk-r${ANDROID_NDK_REVISION}-linux.zip && \
+    cd android-ndk-r${ANDROID_NDK_REVISION} && \
+    ./build/tools/make_standalone_toolchain.py \
+      --arch arm64 \
+      --api ${ANDROID_NDK_API} \
+      --stl=libc++ \
+      --install-dir=${CROSS_ROOT} && \
+    cd / && \
+    rm -rf /build && \
+    find ${CROSS_ROOT} -exec chmod a+r '{}' \; && \
+    find ${CROSS_ROOT} -executable -exec chmod a+x '{}' \;
+
+
+COPY Toolchain.cmake ${CROSS_ROOT}/
+ENV CMAKE_TOOLCHAIN_FILE ${CROSS_ROOT}/Toolchain.cmake
+
+#include "common.label-and-env"
+
+FROM gcc:latest
+
+COPY . /usr/gcc/cpp_test
+
+WORKDIR /usr/gcc/cpp_test
+
+RUN g++ -o Test HelloWorld.cpp
+
+CMD [ "./Test" ]
