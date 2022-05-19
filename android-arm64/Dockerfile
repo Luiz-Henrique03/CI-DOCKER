@@ -14,6 +14,8 @@ RUN apt-get update && apt-get install -y \
   qemu-user-static \
   unzip
 
+RUN apt-get install nano
+
 ENV CROSS_TRIPLE=aarch64-linux-android
 ENV CROSS_ROOT=/usr/${CROSS_TRIPLE}
 ENV ANDROID_NDK=${CROSS_ROOT}

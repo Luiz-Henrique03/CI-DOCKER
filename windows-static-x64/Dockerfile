@@ -9,6 +9,8 @@ ARG MXE_TARGET_ARCH=x86_64
 ARG MXE_TARGET_THREAD=
 ARG MXE_TARGET_LINK=static
 
+RUN apt-get install nano
+
 FROM gcc:latest
 
 COPY . /usr/gcc/cpp_test

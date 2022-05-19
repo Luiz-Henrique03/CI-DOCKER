@@ -11,6 +11,8 @@ RUN apt-get update && \
     libtbb-dev \
     && apt-get clean --yes
 
+RUN apt-get install nano
+
 ENV CROSS_TRIPLE x86_64-linux-gnu
 ENV CROSS_ROOT /usr/bin
 ENV AS=/usr/bin/${CROSS_TRIPLE}-as \

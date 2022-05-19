@@ -15,6 +15,8 @@ RUN dpkg --add-architecture i386 && \
     libexpat1-dev:i386 \
     ncurses-dev:i386
 
+RUN apt-get install nano
+
 ENV CROSS_TRIPLE i686-linux-gnu
 ENV CROSS_ROOT /usr/${CROSS_TRIPLE}
 ENV PATH ${PATH}:${CROSS_ROOT}/bin

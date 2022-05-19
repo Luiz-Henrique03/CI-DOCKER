@@ -9,6 +9,8 @@ ARG MXE_TARGET_ARCH=i686
 ARG MXE_TARGET_THREAD=
 ARG MXE_TARGET_LINK=shared
 
+RUN apt-get install nano
+
 COPY . /usr/gcc/cpp_test
 
 WORKDIR /usr/gcc/cpp_test
