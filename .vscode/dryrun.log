@@ -1,0 +1,62 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/luiz/CI-Docker'
+make: Leaving directory '/home/luiz/CI-Docker'
+ 
+make: *** No rule to make target 'Dockerfile.in', needed by 'Dockerfile'.
+make: *** No rule to make target 'common/common.docker', needed by 'Dockerfile'.
+make: *** No rule to make target 'common/common.debian', needed by 'Dockerfile'.
+make: *** No rule to make target 'common/common.manylinux', needed by 'Dockerfile'.
+make: *** No rule to make target 'common/common.buildroot', needed by 'Dockerfile'.
+make: *** No rule to make target 'common/common.crosstool', needed by 'Dockerfile'.
+make: *** No rule to make target 'common/common.webassembly', needed by 'Dockerfile'.
+make: *** No rule to make target 'common/common.windows', needed by 'Dockerfile'.
+make: *** No rule to make target 'common/common-manylinux.crosstool', needed by 'Dockerfile'.
+make: *** No rule to make target 'common/common.dockcross', needed by 'Dockerfile'.
+make: *** No rule to make target 'common/common.label-and-env', needed by 'Dockerfile'.
+make: *** No rule to make target 'imagefiles/', needed by 'base'.
+make: *** No rule to make target 'android-arm/Dockerfile.in', needed by 'android-arm/Dockerfile'.
+make: *** No rule to make target 'android-arm64/Dockerfile.in', needed by 'android-arm64/Dockerfile'.
+make: *** No rule to make target 'android-x86/Dockerfile', needed by 'android-x86'.
+make: *** No rule to make target 'android-x86_64/Dockerfile', needed by 'android-x86_64'.
+make: *** No rule to make target 'linux-x86/Dockerfile.in', needed by 'linux-x86/Dockerfile'.
+make: *** No rule to make target 'linux-x64/Dockerfile.in', needed by 'linux-x64/Dockerfile'.
+make: *** No rule to make target 'linux-x64-clang/Dockerfile.in', needed by 'linux-x64-clang/Dockerfile'.
+make: *** No rule to make target 'linux-arm64/Dockerfile.in', needed by 'linux-arm64/Dockerfile'.
+make: *** No rule to make target 'linux-arm64-musl/Dockerfile.in', needed by 'linux-arm64-musl/Dockerfile'.
+make: *** No rule to make target 'linux-arm64-full/Dockerfile.in', needed by 'linux-arm64-full/Dockerfile'.
+make: *** No rule to make target 'linux-armv5/Dockerfile.in', needed by 'linux-armv5/Dockerfile'.
+make: *** No rule to make target 'linux-armv5-musl/Dockerfile.in', needed by 'linux-armv5-musl/Dockerfile'.
+make: *** No rule to make target 'linux-armv5-uclibc/Dockerfile.in', needed by 'linux-armv5-uclibc/Dockerfile'.
+make: *** No rule to make target 'linux-m68k-uclibc/Dockerfile.in', needed by 'linux-m68k-uclibc/Dockerfile'.
+make: *** No rule to make target 'linux-s390x/Dockerfile.in', needed by 'linux-s390x/Dockerfile'.
+make: *** No rule to make target 'linux-x64-tinycc/Dockerfile.in', needed by 'linux-x64-tinycc/Dockerfile'.
+make: *** No rule to make target 'linux-armv6/Dockerfile.in', needed by 'linux-armv6/Dockerfile'.
+make: *** No rule to make target 'linux-armv6-lts/Dockerfile.in', needed by 'linux-armv6-lts/Dockerfile'.
+make: *** No rule to make target 'linux-armv6-musl/Dockerfile.in', needed by 'linux-armv6-musl/Dockerfile'.
+make: *** No rule to make target 'linux-arm64-lts/Dockerfile.in', needed by 'linux-arm64-lts/Dockerfile'.
+make: *** No rule to make target 'linux-mipsel-lts/Dockerfile.in', needed by 'linux-mipsel-lts/Dockerfile'.
+make: *** No rule to make target 'linux-armv7l-musl/Dockerfile.in', needed by 'linux-armv7l-musl/Dockerfile'.
+make: *** No rule to make target 'linux-armv7/Dockerfile.in', needed by 'linux-armv7/Dockerfile'.
+make: *** No rule to make target 'linux-armv7a/Dockerfile.in', needed by 'linux-armv7a/Dockerfile'.
+make: *** No rule to make target 'linux-armv7-lts/Dockerfile.in', needed by 'linux-armv7-lts/Dockerfile'.
+make: *** No rule to make target 'linux-x86_64-full/Dockerfile.in', needed by 'linux-x86_64-full/Dockerfile'.
+make: *** No rule to make target 'linux-mips/Dockerfile.in', needed by 'linux-mips/Dockerfile'.
+make: *** No rule to make target 'linux-mips-lts/Dockerfile.in', needed by 'linux-mips-lts/Dockerfile'.
+make: *** No rule to make target 'linux-ppc64le/Dockerfile.in', needed by 'linux-ppc64le/Dockerfile'.
+make: *** No rule to make target 'linux-riscv64/Dockerfile.in', needed by 'linux-riscv64/Dockerfile'.
+make: *** No rule to make target 'linux-riscv32/Dockerfile.in', needed by 'linux-riscv32/Dockerfile'.
+make: *** No rule to make target 'linux-xtensa-uclibc/Dockerfile.in', needed by 'linux-xtensa-uclibc/Dockerfile'.
+make: *** No rule to make target 'web-wasi/Dockerfile.in', needed by 'web-wasi/Dockerfile'.
+make: *** No rule to make target 'windows-static-x86/Dockerfile.in', needed by 'windows-static-x86/Dockerfile'.
+make: *** No rule to make target 'windows-static-x64/Dockerfile.in', needed by 'windows-static-x64/Dockerfile'.
+make: *** No rule to make target 'windows-static-x64-posix/Dockerfile.in', needed by 'windows-static-x64-posix/Dockerfile'.
+make: *** No rule to make target 'windows-armv7/Dockerfile.in', needed by 'windows-armv7/Dockerfile'.
+make: *** No rule to make target 'windows-shared-x86/Dockerfile.in', needed by 'windows-shared-x86/Dockerfile'.
+make: *** No rule to make target 'windows-shared-x64/Dockerfile.in', needed by 'windows-shared-x64/Dockerfile'.
+make: *** No rule to make target 'windows-shared-x64-posix/Dockerfile.in', needed by 'windows-shared-x64-posix/Dockerfile'.
+make: *** No rule to make target 'windows-arm64/Dockerfile.in', needed by 'windows-arm64/Dockerfile'.
+make: *** No rule to make target 'manylinux2014-x64/Dockerfile.in', needed by 'manylinux2014-x64/Dockerfile'.
+make: *** No rule to make target 'manylinux2014-x86/Dockerfile.in', needed by 'manylinux2014-x86/Dockerfile'.
+make: *** No rule to make target 'manylinux2014-aarch64/Dockerfile.in', needed by 'manylinux2014-aarch64/Dockerfile'.
+make: *** No rule to make target 'web-wasm/Dockerfile.in', needed by 'web-wasm/Dockerfile'.
+

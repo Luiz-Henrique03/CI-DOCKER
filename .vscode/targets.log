@@ -1,0 +1,3603 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make: *** No rule to make target 'all'.  Stop.
+
+# GNU Make 4.2.1
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Mon May 23 14:32:11 2022
+
+# Variables
+
+# 'override' directive
+GNUMAKEFLAGS := 
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+DESKTOP_SESSION = ubuntu
+# default
+.SHELLFLAGS := -c
+# environment
+XDG_SESSION_CLASS = user
+# environment
+SNAP_COMMON = /var/snap/code/common
+# environment
+XDG_SESSION_TYPE = x11
+# environment
+VSCODE_LOG_NATIVE = false
+# makefile (from 'Makefile', line 38)
+GEN_IMAGE_DOCKERFILES = $(addsuffix /Dockerfile,$(GEN_IMAGES))
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+IM_CONFIG_PHASE = 1
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+XAUTHORITY = /run/user/1000/gdm/Xauthority
+# environment
+GDMSESSION = ubuntu
+# environment
+XMODIFIERS = @im=ibus
+# makefile
+CURDIR := /home/luiz/CI-Docker
+# makefile
+SHELL = /bin/sh
+# makefile (from 'Makefile', line 65)
+RM = --rm
+# environment
+SNAP_DATA = /var/snap/code/97
+# environment
+VSCODE_NLS_CONFIG = {"locale":"pt-br","availableLanguages":{},"_languagePackSupport":true}
+# environment
+JOURNAL_STREAM = 8:36028
+# environment
+XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
+# makefile (from 'Makefile', line 52)
+IMAGES = $(STANDARD_IMAGES) $(NON_STANDARD_IMAGES)
+# environment
+SNAP_INSTANCE_NAME = code
+# environment
+SNAP_ARCH = amd64
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# automatic
+@F = $(notdir $@)
+# environment
+GIO_LAUNCHED_DESKTOP_FILE = /var/lib/snapd/desktop/applications/code_code.desktop
+# environment
+USERNAME = luiz
+# environment
+XDG_DATA_DIRS = /usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+_ = /snap/code/97/usr/share/code/code
+# environment
+MANAGERPID = 1531
+# makefile (from 'Makefile', line 74)
+SHELLCHECK := shellcheck
+# environment
+LESSOPEN = | /usr/bin/lesspipe %s
+# environment
+VSCODE_CWD = /home/luiz
+# environment
+GSETTINGS_SCHEMA_DIR = /snap/code/97/usr/share/glib-2.0/schemas
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+PATH = /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+# makefile (from 'Makefile', line 58)
+windows-static-x64-posix.test_ARGS = --exe-suffix ".exe"
+# makefile (from 'Makefile', line 49)
+DOCKER_COMPOSITE_PATH = $(addprefix $(DOCKER_COMPOSITE_FOLDER_PATH),$(DOCKER_COMPOSITE_SOURCES))
+# environment
+GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
+# environment
+SESSION_MANAGER = local/luiz-VirtualBox:@/tmp/.ICE-unix/1735,unix/luiz-VirtualBox:/tmp/.ICE-unix/1735
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# environment
+GDK_PIXBUF_MODULE_FILE = /home/luiz/snap/code/common/.cache/gdk-pixbuf-loaders.cache
+# environment
+SNAP = /snap/code/97
+# makefile (from 'Makefile', line 6)
+DOCKER = docker
+# environment
+SNAP_VERSION = c3511e6c
+# makefile (from 'Makefile', line 77)
+SHELLCHECK_SEVERITY_LEVEL := error
+# environment
+XDG_MENU_PREFIX = gnome-
+# environment
+VSCODE_LOG_STACK = false
+# environment
+DISABLE_WAYLAND = 1
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+INVOCATION_ID = 354bd2af711a49e8a82e29671f736075
+# environment
+GDK_PIXBUF_MODULEDIR = /snap/code/97/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# makefile (from 'Makefile', line 61)
+windows-shared-x64-posix.test_ARGS = --exe-suffix ".exe"
+# makefile (from 'Makefile', line 71)
+TAG := 20220523-be46f1f
+# environment
+LS_COLORS = 
+# environment
+XDG_SESSION_DESKTOP = ubuntu
+# environment
+SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
+# environment
+GIO_LAUNCHED_DESKTOP_FILE_PID = 145257
+# automatic
+%F = $(notdir $%)
+# environment
+DISPLAY = :0
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+SNAP_INSTANCE_KEY = 
+# environment
+PWD = /home/luiz/CI-Docker
+# default
+.LOADED := 
+# environment
+SSH_AGENT_PID = 1694
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
+# environment
+GTK_MODULES = gail:atk-bridge
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/luiz
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# environment
+VSCODE_CLI = 1
+# environment
+VSCODE_CODE_CACHE_PATH = /home/luiz/.config/Code/CachedData/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5
+# environment
+LOGNAME = luiz
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void
+# environment
+SNAP_CONTEXT = 7FiD1xysrp5rSYsEnKZu3afuh5gfEt9LmdKRZ3loGlv_MuOCUf0u
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# environment
+SNAP_USER_COMMON = /home/luiz/snap/code/common
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+GNOME_DESKTOP_SESSION_ID = this-is-deprecated
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+MAKELEVEL := 0
+# environment
+SNAP_REAL_HOME = /home/luiz
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+QT_IM_MODULE = ibus
+# environment
+SNAP_USER_DATA = /home/luiz/snap/code/97
+# environment
+SHLVL = 0
+# makefile (from 'Makefile', line 57)
+windows-static-x64.test_ARGS = --exe-suffix ".exe"
+# environment
+GNOME_SHELL_SESSION_MODE = ubuntu
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-df8d00f6-eb6a-443c-b92a-066553e63f79.sock
+# default
+MAKE_VERSION := 4.2.1
+# environment
+USER = luiz
+# environment
+SNAP_REVISION = 97
+# makefile
+.DEFAULT_GOAL := images
+# environment
+XDG_CURRENT_DESKTOP = Unity
+# makefile (from 'Makefile', line 9)
+ORG = dockcross
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# default
+MAKE_COMMAND := make
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+LANGUAGE = pt_BR:pt:en
+# makefile (from 'Makefile', line 60)
+windows-shared-x64.test_ARGS = --exe-suffix ".exe"
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-29c170ec-1.67.2-main.sock
+# environment
+BAMF_DESKTOP_FILE_HINT = /var/lib/snapd/desktop/applications/code_code.desktop
+# makefile (from 'Makefile', line 41)
+NON_STANDARD_IMAGES = manylinux2014-x64 manylinux2014-x86 manylinux2014-aarch64 web-wasm
+# makefile
+MAKEFLAGS = pqrR
+# environment
+MFLAGS = -pqrR
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# makefile (from 'Makefile', line 56)
+windows-static-x86.test_ARGS = --exe-suffix ".exe"
+# environment
+GDK_BACKEND = x11
+# automatic
++F = $(notdir $+)
+# environment
+QT_ACCESSIBILITY = 1
+# makefile (from 'Makefile', line 48)
+DOCKER_COMPOSITE_FOLDER_PATH = common/
+# 'override' directive
+.SHELLSTATUS := 0
+# default
+MAKEFILES := 
+# environment
+SNAP_COOKIE = 7FiD1xysrp5rSYsEnKZu3afuh5gfEt9LmdKRZ3loGlv_MuOCUf0u
+# automatic
+<F = $(notdir $<)
+# makefile (from 'Makefile', line 45)
+DOCKER_COMPOSITE_SOURCES = common.docker common.debian common.manylinux common.buildroot common.crosstool common.webassembly common.windows common-manylinux.crosstool common.dockcross common.label-and-env
+# makefile (from 'Makefile', line 26)
+GEN_IMAGES = android-arm android-arm64 linux-x86 linux-x64 linux-x64-clang linux-arm64 linux-arm64-musl linux-arm64-full manylinux2014-x64 manylinux2014-x86 manylinux2014-aarch64 linux-arm64-lts web-wasm web-wasi linux-mips linux-mips-lts windows-arm64 windows-armv7 windows-static-x86 windows-static-x64 windows-static-x64-posix windows-shared-x86 windows-shared-x64 windows-shared-x64-posix linux-armv7 linux-armv7a linux-armv7l-musl linux-armv7-lts linux-x86_64-full linux-armv6 linux-armv6-lts linux-armv6-musl linux-mipsel-lts linux-armv5 linux-armv5-musl linux-armv5-uclibc linux-ppc64le linux-s390x linux-riscv64 linux-riscv32 linux-m68k-uclibc linux-x64-tinycc linux-xtensa-uclibc
+# environment
+SNAP_NAME = code
+# makefile (from 'Makefile', line 12)
+BIN = ./bin
+# makefile (from 'Makefile', line 59)
+windows-shared-x86.test_ARGS = --exe-suffix ".exe"
+# environment
+LC_ALL = C
+# environment
+GJS_DEBUG_TOPICS = JS ERROR;JS LOG
+# automatic
+^F = $(notdir $^)
+ 
+# default
+SUFFIXES := 
+# environment
+SNAP_REEXEC = 
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# environment
+WINDOWPATH = 2
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# environment
+GJS_DEBUG_OUTPUT = stderr
+# default
+.RECIPEPREFIX := 
+# makefile (from 'Makefile', line 55)
+linux-x64-tinycc.test_ARGS = --languages C
+# makefile (from 'Makefile', line 15)
+STANDARD_IMAGES = android-arm android-arm64 android-x86 android-x86_64 linux-x86 linux-x64 linux-x64-clang linux-arm64 linux-arm64-musl linux-arm64-full linux-armv5 linux-armv5-musl linux-armv5-uclibc linux-m68k-uclibc linux-s390x linux-x64-tinycc linux-armv6 linux-armv6-lts linux-armv6-musl linux-arm64-lts linux-mipsel-lts linux-armv7l-musl linux-armv7 linux-armv7a linux-armv7-lts linux-x86_64-full linux-mips linux-mips-lts linux-ppc64le linux-riscv64 linux-riscv32 linux-xtensa-uclibc web-wasi windows-static-x86 windows-static-x64 windows-static-x64-posix windows-armv7 windows-shared-x86 windows-shared-x64 windows-shared-x64-posix windows-arm64
+# environment
+LANG = C
+# environment
+VSCODE_PID = 145298
+# variable set hash-table stats:
+# Load=144/1024=14%, Rehash=0, Collisions=19/197=10%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 2049, inode 2241503): 18 files, no impossibilities.
+
+# 18 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+windows-armv7/Dockerfile.in:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+linux-s390x/Dockerfile: linux-s390x/Dockerfile.in common/common.docker common/common.debian common/common.manylinux common/common.buildroot common/common.crosstool common/common.webassembly common/common.windows common/common-manylinux.crosstool common/common.dockcross common/common.label-and-env
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'linux-s390x/'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 94):
+	sed \
+		-e '/common.docker/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.docker' \
+		-e '/common.debian/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.debian' \
+		-e '/common.manylinux/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.manylinux' \
+		-e '/common.crosstool/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.crosstool' \
+		-e '/common.buildroot/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.buildroot' \
+		-e '/common-manylinux.crosstool/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common-manylinux.crosstool' \
+		-e '/common.webassembly/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.webassembly' \
+		-e '/common.windows/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.windows' \
+		-e '/common.dockcross/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.dockcross' \
+		-e '/common.label-and-env/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.label-and-env' \
+		$< > $@
+
+# Not a target:
+linux-ppc64le/Dockerfile.in:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+linux-armv5-musl.test: linux-armv5-musl test.prerequisites
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  Modification time never checked.
+#  File has not been updated.
+# automatic
+# @ := linux-armv5-musl.test
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := test.prerequisites
+# automatic
+# | := 
+# automatic
+# < := 
+# automatic
+# ^ := test.prerequisites
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/9=11%
+#  recipe to execute (from 'Makefile', line 246):
+	$(DOCKER) run $(RM) $(ORG)/$(basename $@) > $(BIN)/dockcross-$(basename $@) \
+		&& chmod +x $(BIN)/dockcross-$(basename $@)
+	$(BIN)/dockcross-$(basename $@) python3 test/run.py $($@_ARGS)
+
+linux-riscv64.test: linux-riscv64 test.prerequisites
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  Modification time never checked.
+#  File has not been updated.
+# automatic
+# @ := linux-riscv64.test
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := test.prerequisites
+# automatic
+# | := 
+# automatic
+# < := 
+# automatic
+# ^ := test.prerequisites
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/9=11%
+#  recipe to execute (from 'Makefile', line 246):
+	$(DOCKER) run $(RM) $(ORG)/$(basename $@) > $(BIN)/dockcross-$(basename $@) \
+		&& chmod +x $(BIN)/dockcross-$(basename $@)
+	$(BIN)/dockcross-$(basename $@) python3 test/run.py $($@_ARGS)
+
+windows-static-x64-posix.test: windows-static-x64-posix test.prerequisites
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  Modification time never checked.
+#  File has not been updated.
+# automatic
+# @ := windows-static-x64-posix.test
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := test.prerequisites
+# automatic
+# | := 
+# automatic
+# < := 
+# automatic
+# ^ := test.prerequisites
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/9=11%
+#  recipe to execute (from 'Makefile', line 246):
+	$(DOCKER) run $(RM) $(ORG)/$(basename $@) > $(BIN)/dockcross-$(basename $@) \
+		&& chmod +x $(BIN)/dockcross-$(basename $@)
+	$(BIN)/dockcross-$(basename $@) python3 test/run.py $($@_ARGS)
+
+# Not a target:
+common/common.buildroot:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+linux-riscv64: linux-riscv64/Dockerfile base
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'linux-riscv64'
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 214):
+	mkdir -p $@/imagefiles && cp -r imagefiles $@/
+	$(DOCKER) build -t $(ORG)/$@:latest \
+		-t $(ORG)/$@:$(TAG) \
+		--build-arg IMAGE=$(ORG)/$@ \
+		--build-arg VCS_REF=`git rev-parse --short HEAD` \
+		--build-arg VCS_URL=`git config --get remote.origin.url` \
+		--build-arg BUILD_DATE=`date -u +"%Y-%m-%dT%H:%M:%SZ"` \
+		$@
+	rm -rf $@/imagefiles
+
+windows-shared-x64-posix/Dockerfile: windows-shared-x64-posix/Dockerfile.in common/common.docker common/common.debian common/common.manylinux common/common.buildroot common/common.crosstool common/common.webassembly common/common.windows common/common-manylinux.crosstool common/common.dockcross common/common.label-and-env
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'windows-shared-x64-posix/'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 94):
+	sed \
+		-e '/common.docker/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.docker' \
+		-e '/common.debian/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.debian' \
+		-e '/common.manylinux/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.manylinux' \
+		-e '/common.crosstool/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.crosstool' \
+		-e '/common.buildroot/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.buildroot' \
+		-e '/common-manylinux.crosstool/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common-manylinux.crosstool' \
+		-e '/common.webassembly/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.webassembly' \
+		-e '/common.windows/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.windows' \
+		-e '/common.dockcross/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.dockcross' \
+		-e '/common.label-and-env/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.label-and-env' \
+		$< > $@
+
+android-x86.test: android-x86 test.prerequisites
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  Modification time never checked.
+#  File has not been updated.
+# automatic
+# @ := android-x86.test
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := test.prerequisites
+# automatic
+# | := 
+# automatic
+# < := 
+# automatic
+# ^ := test.prerequisites
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/9=11%
+#  recipe to execute (from 'Makefile', line 246):
+	$(DOCKER) run $(RM) $(ORG)/$(basename $@) > $(BIN)/dockcross-$(basename $@) \
+		&& chmod +x $(BIN)/dockcross-$(basename $@)
+	$(BIN)/dockcross-$(basename $@) python3 test/run.py $($@_ARGS)
+
+linux-armv6-lts: linux-armv6-lts/Dockerfile base
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'linux-armv6-lts'
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 214):
+	mkdir -p $@/imagefiles && cp -r imagefiles $@/
+	$(DOCKER) build -t $(ORG)/$@:latest \
+		-t $(ORG)/$@:$(TAG) \
+		--build-arg IMAGE=$(ORG)/$@ \
+		--build-arg VCS_REF=`git rev-parse --short HEAD` \
+		--build-arg VCS_URL=`git config --get remote.origin.url` \
+		--build-arg BUILD_DATE=`date -u +"%Y-%m-%dT%H:%M:%SZ"` \
+		$@
+	rm -rf $@/imagefiles
+
+# Not a target:
+windows-shared-x64-posix/Dockerfile.in:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+android-x86: android-x86/Dockerfile base
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'android-x86'
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 214):
+	mkdir -p $@/imagefiles && cp -r imagefiles $@/
+	$(DOCKER) build -t $(ORG)/$@:latest \
+		-t $(ORG)/$@:$(TAG) \
+		--build-arg IMAGE=$(ORG)/$@ \
+		--build-arg VCS_REF=`git rev-parse --short HEAD` \
+		--build-arg VCS_URL=`git config --get remote.origin.url` \
+		--build-arg BUILD_DATE=`date -u +"%Y-%m-%dT%H:%M:%SZ"` \
+		$@
+	rm -rf $@/imagefiles
+
+# Not a target:
+common/common.dockcross:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+linux-ppc64le/Dockerfile: linux-ppc64le/Dockerfile.in common/common.docker common/common.debian common/common.manylinux common/common.buildroot common/common.crosstool common/common.webassembly common/common.windows common/common-manylinux.crosstool common/common.dockcross common/common.label-and-env
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'linux-ppc64le/'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 94):
+	sed \
+		-e '/common.docker/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.docker' \
+		-e '/common.debian/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.debian' \
+		-e '/common.manylinux/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.manylinux' \
+		-e '/common.crosstool/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.crosstool' \
+		-e '/common.buildroot/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.buildroot' \
+		-e '/common-manylinux.crosstool/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common-manylinux.crosstool' \
+		-e '/common.webassembly/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.webassembly' \
+		-e '/common.windows/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.windows' \
+		-e '/common.dockcross/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.dockcross' \
+		-e '/common.label-and-env/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.label-and-env' \
+		$< > $@
+
+linux-xtensa-uclibc.test: linux-xtensa-uclibc test.prerequisites
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  Modification time never checked.
+#  File has not been updated.
+# automatic
+# @ := linux-xtensa-uclibc.test
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := test.prerequisites
+# automatic
+# | := 
+# automatic
+# < := 
+# automatic
+# ^ := test.prerequisites
+# automatic
+# ? := 
+# variable set hash-table stats:
+ 
+# Load=8/32=25%, Rehash=0, Collisions=1/9=11%
+#  recipe to execute (from 'Makefile', line 246):
+	$(DOCKER) run $(RM) $(ORG)/$(basename $@) > $(BIN)/dockcross-$(basename $@) \
+		&& chmod +x $(BIN)/dockcross-$(basename $@)
+	$(BIN)/dockcross-$(basename $@) python3 test/run.py $($@_ARGS)
+
+linux-arm64-musl/Dockerfile: linux-arm64-musl/Dockerfile.in common/common.docker common/common.debian common/common.manylinux common/common.buildroot common/common.crosstool common/common.webassembly common/common.windows common/common-manylinux.crosstool common/common.dockcross common/common.label-and-env
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'linux-arm64-musl/'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 94):
+	sed \
+		-e '/common.docker/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.docker' \
+		-e '/common.debian/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.debian' \
+		-e '/common.manylinux/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.manylinux' \
+		-e '/common.crosstool/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.crosstool' \
+		-e '/common.buildroot/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.buildroot' \
+		-e '/common-manylinux.crosstool/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common-manylinux.crosstool' \
+		-e '/common.webassembly/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.webassembly' \
+		-e '/common.windows/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.windows' \
+		-e '/common.dockcross/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.dockcross' \
+		-e '/common.label-and-env/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.label-and-env' \
+		$< > $@
+
+manylinux2014-x86.test: manylinux2014-x86 test.prerequisites
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 188):
+	$(DOCKER) run $(RM) $(ORG)/manylinux2014-x86 > $(BIN)/dockcross-manylinux2014-x86 \
+		&& chmod +x $(BIN)/dockcross-manylinux2014-x86
+	$(BIN)/dockcross-manylinux2014-x86 /opt/python/cp38-cp38/bin/python test/run.py
+
+# Not a target:
+linux-arm64-musl/Dockerfile.in:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+imagefiles/:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+linux-armv5-musl: linux-armv5-musl/Dockerfile base
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'linux-armv5-musl'
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 214):
+	mkdir -p $@/imagefiles && cp -r imagefiles $@/
+	$(DOCKER) build -t $(ORG)/$@:latest \
+		-t $(ORG)/$@:$(TAG) \
+		--build-arg IMAGE=$(ORG)/$@ \
+		--build-arg VCS_REF=`git rev-parse --short HEAD` \
+		--build-arg VCS_URL=`git config --get remote.origin.url` \
+		--build-arg BUILD_DATE=`date -u +"%Y-%m-%dT%H:%M:%SZ"` \
+		$@
+	rm -rf $@/imagefiles
+
+linux-x64.test: linux-x64 test.prerequisites
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  Modification time never checked.
+#  File has not been updated.
+# automatic
+# @ := linux-x64.test
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := test.prerequisites
+# automatic
+# | := 
+# automatic
+# < := 
+# automatic
+# ^ := test.prerequisites
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/9=11%
+#  recipe to execute (from 'Makefile', line 246):
+	$(DOCKER) run $(RM) $(ORG)/$(basename $@) > $(BIN)/dockcross-$(basename $@) \
+		&& chmod +x $(BIN)/dockcross-$(basename $@)
+	$(BIN)/dockcross-$(basename $@) python3 test/run.py $($@_ARGS)
+
+windows-arm64/Dockerfile: windows-arm64/Dockerfile.in common/common.docker common/common.debian common/common.manylinux common/common.buildroot common/common.crosstool common/common.webassembly common/common.windows common/common-manylinux.crosstool common/common.dockcross common/common.label-and-env
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'windows-arm64/'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 94):
+	sed \
+		-e '/common.docker/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.docker' \
+		-e '/common.debian/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.debian' \
+		-e '/common.manylinux/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.manylinux' \
+		-e '/common.crosstool/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.crosstool' \
+		-e '/common.buildroot/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.buildroot' \
+		-e '/common-manylinux.crosstool/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common-manylinux.crosstool' \
+		-e '/common.webassembly/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.webassembly' \
+		-e '/common.windows/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.windows' \
+		-e '/common.dockcross/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.dockcross' \
+		-e '/common.label-and-env/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.label-and-env' \
+		$< > $@
+
+linux-armv5-uclibc/Dockerfile: linux-armv5-uclibc/Dockerfile.in common/common.docker common/common.debian common/common.manylinux common/common.buildroot common/common.crosstool common/common.webassembly common/common.windows common/common-manylinux.crosstool common/common.dockcross common/common.label-and-env
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'linux-armv5-uclibc/'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 94):
+	sed \
+		-e '/common.docker/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.docker' \
+		-e '/common.debian/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.debian' \
+		-e '/common.manylinux/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.manylinux' \
+		-e '/common.crosstool/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.crosstool' \
+		-e '/common.buildroot/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.buildroot' \
+		-e '/common-manylinux.crosstool/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common-manylinux.crosstool' \
+		-e '/common.webassembly/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.webassembly' \
+		-e '/common.windows/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.windows' \
+		-e '/common.dockcross/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.dockcross' \
+		-e '/common.label-and-env/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.label-and-env' \
+		$< > $@
+
+# Not a target:
+windows-arm64/Dockerfile.in:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+windows-armv7.test: windows-armv7 test.prerequisites
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  Modification time never checked.
+#  File has not been updated.
+# automatic
+# @ := windows-armv7.test
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := test.prerequisites
+# automatic
+# | := 
+# automatic
+# < := 
+# automatic
+# ^ := test.prerequisites
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/9=11%
+#  recipe to execute (from 'Makefile', line 246):
+	$(DOCKER) run $(RM) $(ORG)/$(basename $@) > $(BIN)/dockcross-$(basename $@) \
+		&& chmod +x $(BIN)/dockcross-$(basename $@)
+	$(BIN)/dockcross-$(basename $@) python3 test/run.py $($@_ARGS)
+
+# Not a target:
+linux-armv5-uclibc/Dockerfile.in:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+linux-mips/Dockerfile: linux-mips/Dockerfile.in common/common.docker common/common.debian common/common.manylinux common/common.buildroot common/common.crosstool common/common.webassembly common/common.windows common/common-manylinux.crosstool common/common.dockcross common/common.label-and-env
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'linux-mips/'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 94):
+	sed \
+		-e '/common.docker/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.docker' \
+		-e '/common.debian/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.debian' \
+		-e '/common.manylinux/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.manylinux' \
+		-e '/common.crosstool/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.crosstool' \
+		-e '/common.buildroot/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.buildroot' \
+		-e '/common-manylinux.crosstool/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common-manylinux.crosstool' \
+		-e '/common.webassembly/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.webassembly' \
+		-e '/common.windows/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.windows' \
+		-e '/common.dockcross/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.dockcross' \
+		-e '/common.label-and-env/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.label-and-env' \
+		$< > $@
+
+# Not a target:
+all:
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+windows-static-x64-posix: windows-static-x64-posix/Dockerfile base
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'windows-static-x64-posix'
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 214):
+	mkdir -p $@/imagefiles && cp -r imagefiles $@/
+	$(DOCKER) build -t $(ORG)/$@:latest \
+		-t $(ORG)/$@:$(TAG) \
+		--build-arg IMAGE=$(ORG)/$@ \
+		--build-arg VCS_REF=`git rev-parse --short HEAD` \
+		--build-arg VCS_URL=`git config --get remote.origin.url` \
+		--build-arg BUILD_DATE=`date -u +"%Y-%m-%dT%H:%M:%SZ"` \
+		$@
+	rm -rf $@/imagefiles
+
+# Not a target:
+linux-mips/Dockerfile.in:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+linux-xtensa-uclibc: linux-xtensa-uclibc/Dockerfile base
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'linux-xtensa-uclibc'
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 214):
+	mkdir -p $@/imagefiles && cp -r imagefiles $@/
+	$(DOCKER) build -t $(ORG)/$@:latest \
+		-t $(ORG)/$@:$(TAG) \
+		--build-arg IMAGE=$(ORG)/$@ \
+		--build-arg VCS_REF=`git rev-parse --short HEAD` \
+		--build-arg VCS_URL=`git config --get remote.origin.url` \
+		--build-arg BUILD_DATE=`date -u +"%Y-%m-%dT%H:%M:%SZ"` \
+		$@
+	rm -rf $@/imagefiles
+
+.PHONY: base images android-arm android-arm64 android-x86 android-x86_64 linux-x86 linux-x64 linux-x64-clang linux-arm64 linux-arm64-musl linux-arm64-full linux-armv5 linux-armv5-musl linux-armv5-uclibc linux-m68k-uclibc linux-s390x linux-x64-tinycc linux-armv6 linux-armv6-lts linux-armv6-musl linux-arm64-lts linux-mipsel-lts linux-armv7l-musl linux-armv7 linux-armv7a linux-armv7-lts linux-x86_64-full linux-mips linux-mips-lts linux-ppc64le linux-riscv64 linux-riscv32 linux-xtensa-uclibc web-wasi windows-static-x86 windows-static-x64 windows-static-x64-posix windows-armv7 windows-shared-x86 windows-shared-x64 windows-shared-x64-posix windows-arm64 manylinux2014-x64 manylinux2014-x86 manylinux2014-aarch64 web-wasm test %.test clean purge bash-check display_images
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+linux-armv7l-musl: linux-armv7l-musl/Dockerfile base
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'linux-armv7l-musl'
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 214):
+	mkdir -p $@/imagefiles && cp -r imagefiles $@/
+	$(DOCKER) build -t $(ORG)/$@:latest \
+		-t $(ORG)/$@:$(TAG) \
+		--build-arg IMAGE=$(ORG)/$@ \
+		--build-arg VCS_REF=`git rev-parse --short HEAD` \
+		--build-arg VCS_URL=`git config --get remote.origin.url` \
+		--build-arg BUILD_DATE=`date -u +"%Y-%m-%dT%H:%M:%SZ"` \
+		$@
+	rm -rf $@/imagefiles
+
+windows-shared-x64-posix.test: windows-shared-x64-posix test.prerequisites
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  Modification time never checked.
+#  File has not been updated.
+# automatic
+# @ := windows-shared-x64-posix.test
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := test.prerequisites
+# automatic
+# | := 
+# automatic
+# < := 
+# automatic
+# ^ := test.prerequisites
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/9=11%
+#  recipe to execute (from 'Makefile', line 246):
+	$(DOCKER) run $(RM) $(ORG)/$(basename $@) > $(BIN)/dockcross-$(basename $@) \
+		&& chmod +x $(BIN)/dockcross-$(basename $@)
+	$(BIN)/dockcross-$(basename $@) python3 test/run.py $($@_ARGS)
+
+linux-x86_64-full/Dockerfile: linux-x86_64-full/Dockerfile.in common/common.docker common/common.debian common/common.manylinux common/common.buildroot common/common.crosstool common/common.webassembly common/common.windows common/common-manylinux.crosstool common/common.dockcross common/common.label-and-env
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'linux-x86_64-full/'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 94):
+	sed \
+		-e '/common.docker/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.docker' \
+		-e '/common.debian/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.debian' \
+		-e '/common.manylinux/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.manylinux' \
+		-e '/common.crosstool/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.crosstool' \
+		-e '/common.buildroot/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.buildroot' \
+		-e '/common-manylinux.crosstool/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common-manylinux.crosstool' \
+		-e '/common.webassembly/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.webassembly' \
+		-e '/common.windows/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.windows' \
+		-e '/common.dockcross/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.dockcross' \
+		-e '/common.label-and-env/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.label-and-env' \
+		$< > $@
+
+windows-armv7: windows-armv7/Dockerfile base
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'windows-armv7'
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 214):
+	mkdir -p $@/imagefiles && cp -r imagefiles $@/
+	$(DOCKER) build -t $(ORG)/$@:latest \
+		-t $(ORG)/$@:$(TAG) \
+		--build-arg IMAGE=$(ORG)/$@ \
+		--build-arg VCS_REF=`git rev-parse --short HEAD` \
+		--build-arg VCS_URL=`git config --get remote.origin.url` \
+		--build-arg BUILD_DATE=`date -u +"%Y-%m-%dT%H:%M:%SZ"` \
+		$@
+	rm -rf $@/imagefiles
+
+linux-ppc64le.test: linux-ppc64le test.prerequisites
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  Modification time never checked.
+#  File has not been updated.
+# automatic
+# @ := linux-ppc64le.test
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := test.prerequisites
+ 
+# automatic
+# | := 
+# automatic
+# < := 
+# automatic
+# ^ := test.prerequisites
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/9=11%
+#  recipe to execute (from 'Makefile', line 246):
+	$(DOCKER) run $(RM) $(ORG)/$(basename $@) > $(BIN)/dockcross-$(basename $@) \
+		&& chmod +x $(BIN)/dockcross-$(basename $@)
+	$(BIN)/dockcross-$(basename $@) python3 test/run.py $($@_ARGS)
+
+# Not a target:
+linux-x86_64-full/Dockerfile.in:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+web-wasi/Dockerfile: web-wasi/Dockerfile.in common/common.docker common/common.debian common/common.manylinux common/common.buildroot common/common.crosstool common/common.webassembly common/common.windows common/common-manylinux.crosstool common/common.dockcross common/common.label-and-env
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'web-wasi/'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 94):
+	sed \
+		-e '/common.docker/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.docker' \
+		-e '/common.debian/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.debian' \
+		-e '/common.manylinux/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.manylinux' \
+		-e '/common.crosstool/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.crosstool' \
+		-e '/common.buildroot/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.buildroot' \
+		-e '/common-manylinux.crosstool/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common-manylinux.crosstool' \
+		-e '/common.webassembly/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.webassembly' \
+		-e '/common.windows/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.windows' \
+		-e '/common.dockcross/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.dockcross' \
+		-e '/common.label-and-env/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.label-and-env' \
+		$< > $@
+
+linux-arm64-musl.test: linux-arm64-musl test.prerequisites
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  Modification time never checked.
+#  File has not been updated.
+# automatic
+# @ := linux-arm64-musl.test
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := test.prerequisites
+# automatic
+# | := 
+# automatic
+# < := 
+# automatic
+# ^ := test.prerequisites
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/9=11%
+#  recipe to execute (from 'Makefile', line 246):
+	$(DOCKER) run $(RM) $(ORG)/$(basename $@) > $(BIN)/dockcross-$(basename $@) \
+		&& chmod +x $(BIN)/dockcross-$(basename $@)
+	$(BIN)/dockcross-$(basename $@) python3 test/run.py $($@_ARGS)
+
+# Not a target:
+web-wasi/Dockerfile.in:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+linux-arm64-full/Dockerfile.in:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+windows-arm64.test: windows-arm64 test.prerequisites
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  Modification time never checked.
+#  File has not been updated.
+# automatic
+# @ := windows-arm64.test
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := test.prerequisites
+# automatic
+# | := 
+# automatic
+# < := 
+# automatic
+# ^ := test.prerequisites
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/9=11%
+#  recipe to execute (from 'Makefile', line 246):
+	$(DOCKER) run $(RM) $(ORG)/$(basename $@) > $(BIN)/dockcross-$(basename $@) \
+		&& chmod +x $(BIN)/dockcross-$(basename $@)
+	$(BIN)/dockcross-$(basename $@) python3 test/run.py $($@_ARGS)
+
+linux-armv5-uclibc.test: linux-armv5-uclibc test.prerequisites
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  Modification time never checked.
+#  File has not been updated.
+# automatic
+# @ := linux-armv5-uclibc.test
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := test.prerequisites
+# automatic
+# | := 
+# automatic
+# < := 
+# automatic
+# ^ := test.prerequisites
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/9=11%
+#  recipe to execute (from 'Makefile', line 246):
+	$(DOCKER) run $(RM) $(ORG)/$(basename $@) > $(BIN)/dockcross-$(basename $@) \
+		&& chmod +x $(BIN)/dockcross-$(basename $@)
+	$(BIN)/dockcross-$(basename $@) python3 test/run.py $($@_ARGS)
+
+windows-arm64: windows-arm64/Dockerfile base
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'windows-arm64'
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 214):
+	mkdir -p $@/imagefiles && cp -r imagefiles $@/
+	$(DOCKER) build -t $(ORG)/$@:latest \
+		-t $(ORG)/$@:$(TAG) \
+		--build-arg IMAGE=$(ORG)/$@ \
+		--build-arg VCS_REF=`git rev-parse --short HEAD` \
+		--build-arg VCS_URL=`git config --get remote.origin.url` \
+		--build-arg BUILD_DATE=`date -u +"%Y-%m-%dT%H:%M:%SZ"` \
+		$@
+	rm -rf $@/imagefiles
+
+linux-arm64-full/Dockerfile: linux-arm64-full/Dockerfile.in common/common.docker common/common.debian common/common.manylinux common/common.buildroot common/common.crosstool common/common.webassembly common/common.windows common/common-manylinux.crosstool common/common.dockcross common/common.label-and-env
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'linux-arm64-full/'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 94):
+	sed \
+		-e '/common.docker/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.docker' \
+		-e '/common.debian/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.debian' \
+		-e '/common.manylinux/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.manylinux' \
+		-e '/common.crosstool/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.crosstool' \
+		-e '/common.buildroot/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.buildroot' \
+		-e '/common-manylinux.crosstool/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common-manylinux.crosstool' \
+		-e '/common.webassembly/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.webassembly' \
+		-e '/common.windows/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.windows' \
+		-e '/common.dockcross/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.dockcross' \
+		-e '/common.label-and-env/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.label-and-env' \
+		$< > $@
+
+Dockerfile: Dockerfile.in common/common.docker common/common.debian common/common.manylinux common/common.buildroot common/common.crosstool common/common.webassembly common/common.windows common/common-manylinux.crosstool common/common.dockcross common/common.label-and-env
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 94):
+	sed \
+		-e '/common.docker/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.docker' \
+		-e '/common.debian/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.debian' \
+		-e '/common.manylinux/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.manylinux' \
+		-e '/common.crosstool/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.crosstool' \
+		-e '/common.buildroot/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.buildroot' \
+		-e '/common-manylinux.crosstool/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common-manylinux.crosstool' \
+		-e '/common.webassembly/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.webassembly' \
+		-e '/common.windows/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.windows' \
+		-e '/common.dockcross/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.dockcross' \
+		-e '/common.label-and-env/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.label-and-env' \
+		$< > $@
+
+linux-mips.test: linux-mips test.prerequisites
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  Modification time never checked.
+#  File has not been updated.
+# automatic
+# @ := linux-mips.test
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := test.prerequisites
+# automatic
+# | := 
+# automatic
+# < := 
+# automatic
+# ^ := test.prerequisites
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/9=11%
+#  recipe to execute (from 'Makefile', line 246):
+	$(DOCKER) run $(RM) $(ORG)/$(basename $@) > $(BIN)/dockcross-$(basename $@) \
+		&& chmod +x $(BIN)/dockcross-$(basename $@)
+	$(BIN)/dockcross-$(basename $@) python3 test/run.py $($@_ARGS)
+
+# Not a target:
+Dockerfile.in:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+common/common.webassembly:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+windows-shared-x64-posix: windows-shared-x64-posix/Dockerfile base
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'windows-shared-x64-posix'
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 214):
+	mkdir -p $@/imagefiles && cp -r imagefiles $@/
+	$(DOCKER) build -t $(ORG)/$@:latest \
+		-t $(ORG)/$@:$(TAG) \
+		--build-arg IMAGE=$(ORG)/$@ \
+		--build-arg VCS_REF=`git rev-parse --short HEAD` \
+		--build-arg VCS_URL=`git config --get remote.origin.url` \
+		--build-arg BUILD_DATE=`date -u +"%Y-%m-%dT%H:%M:%SZ"` \
+		$@
+	rm -rf $@/imagefiles
+
+linux-ppc64le: linux-ppc64le/Dockerfile base
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'linux-ppc64le'
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 214):
+	mkdir -p $@/imagefiles && cp -r imagefiles $@/
+	$(DOCKER) build -t $(ORG)/$@:latest \
+		-t $(ORG)/$@:$(TAG) \
+		--build-arg IMAGE=$(ORG)/$@ \
+		--build-arg VCS_REF=`git rev-parse --short HEAD` \
+		--build-arg VCS_URL=`git config --get remote.origin.url` \
+		--build-arg BUILD_DATE=`date -u +"%Y-%m-%dT%H:%M:%SZ"` \
+		$@
+	rm -rf $@/imagefiles
+
+# Not a target:
+common/common.label-and-env:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+linux-x64/Dockerfile.in:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+linux-armv7/Dockerfile.in:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+linux-x64/Dockerfile: linux-x64/Dockerfile.in common/common.docker common/common.debian common/common.manylinux common/common.buildroot common/common.crosstool common/common.webassembly common/common.windows common/common-manylinux.crosstool common/common.dockcross common/common.label-and-env
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'linux-x64/'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 94):
+	sed \
+		-e '/common.docker/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.docker' \
+		-e '/common.debian/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.debian' \
+		-e '/common.manylinux/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.manylinux' \
+		-e '/common.crosstool/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.crosstool' \
+		-e '/common.buildroot/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.buildroot' \
+		-e '/common-manylinux.crosstool/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common-manylinux.crosstool' \
+		-e '/common.webassembly/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.webassembly' \
+		-e '/common.windows/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.windows' \
+		-e '/common.dockcross/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.dockcross' \
+		-e '/common.label-and-env/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.label-and-env' \
+		$< > $@
+
+linux-arm64-musl: linux-arm64-musl/Dockerfile base
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'linux-arm64-musl'
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 214):
+	mkdir -p $@/imagefiles && cp -r imagefiles $@/
+	$(DOCKER) build -t $(ORG)/$@:latest \
+		-t $(ORG)/$@:$(TAG) \
+		--build-arg IMAGE=$(ORG)/$@ \
+		--build-arg VCS_REF=`git rev-parse --short HEAD` \
+		--build-arg VCS_URL=`git config --get remote.origin.url` \
+		--build-arg BUILD_DATE=`date -u +"%Y-%m-%dT%H:%M:%SZ"` \
+		$@
+	rm -rf $@/imagefiles
+
+linux-armv5-uclibc: linux-armv5-uclibc/Dockerfile base
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'linux-armv5-uclibc'
+#  File does not exist.
+ 
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 214):
+	mkdir -p $@/imagefiles && cp -r imagefiles $@/
+	$(DOCKER) build -t $(ORG)/$@:latest \
+		-t $(ORG)/$@:$(TAG) \
+		--build-arg IMAGE=$(ORG)/$@ \
+		--build-arg VCS_REF=`git rev-parse --short HEAD` \
+		--build-arg VCS_URL=`git config --get remote.origin.url` \
+		--build-arg BUILD_DATE=`date -u +"%Y-%m-%dT%H:%M:%SZ"` \
+		$@
+	rm -rf $@/imagefiles
+
+linux-armv7-lts/Dockerfile: linux-armv7-lts/Dockerfile.in common/common.docker common/common.debian common/common.manylinux common/common.buildroot common/common.crosstool common/common.webassembly common/common.windows common/common-manylinux.crosstool common/common.dockcross common/common.label-and-env
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'linux-armv7-lts/'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 94):
+	sed \
+		-e '/common.docker/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.docker' \
+		-e '/common.debian/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.debian' \
+		-e '/common.manylinux/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.manylinux' \
+		-e '/common.crosstool/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.crosstool' \
+		-e '/common.buildroot/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.buildroot' \
+		-e '/common-manylinux.crosstool/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common-manylinux.crosstool' \
+		-e '/common.webassembly/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.webassembly' \
+		-e '/common.windows/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.windows' \
+		-e '/common.dockcross/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.dockcross' \
+		-e '/common.label-and-env/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.label-and-env' \
+		$< > $@
+
+linux-armv7/Dockerfile: linux-armv7/Dockerfile.in common/common.docker common/common.debian common/common.manylinux common/common.buildroot common/common.crosstool common/common.webassembly common/common.windows common/common-manylinux.crosstool common/common.dockcross common/common.label-and-env
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'linux-armv7/'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 94):
+	sed \
+		-e '/common.docker/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.docker' \
+		-e '/common.debian/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.debian' \
+		-e '/common.manylinux/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.manylinux' \
+		-e '/common.crosstool/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.crosstool' \
+		-e '/common.buildroot/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.buildroot' \
+		-e '/common-manylinux.crosstool/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common-manylinux.crosstool' \
+		-e '/common.webassembly/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.webassembly' \
+		-e '/common.windows/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.windows' \
+		-e '/common.dockcross/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.dockcross' \
+		-e '/common.label-and-env/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.label-and-env' \
+		$< > $@
+
+# Not a target:
+common/common.windows:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+linux-armv7-lts/Dockerfile.in:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+linux-x86_64-full.test: linux-x86_64-full test.prerequisites
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  Modification time never checked.
+#  File has not been updated.
+# automatic
+# @ := linux-x86_64-full.test
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := test.prerequisites
+# automatic
+# | := 
+# automatic
+# < := 
+# automatic
+# ^ := test.prerequisites
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/9=11%
+#  recipe to execute (from 'Makefile', line 246):
+	$(DOCKER) run $(RM) $(ORG)/$(basename $@) > $(BIN)/dockcross-$(basename $@) \
+		&& chmod +x $(BIN)/dockcross-$(basename $@)
+	$(BIN)/dockcross-$(basename $@) python3 test/run.py $($@_ARGS)
+
+# Not a target:
+common/common.manylinux:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+windows-static-x64/Dockerfile: windows-static-x64/Dockerfile.in common/common.docker common/common.debian common/common.manylinux common/common.buildroot common/common.crosstool common/common.webassembly common/common.windows common/common-manylinux.crosstool common/common.dockcross common/common.label-and-env
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'windows-static-x64/'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 94):
+	sed \
+		-e '/common.docker/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.docker' \
+		-e '/common.debian/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.debian' \
+		-e '/common.manylinux/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.manylinux' \
+		-e '/common.crosstool/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.crosstool' \
+		-e '/common.buildroot/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.buildroot' \
+		-e '/common-manylinux.crosstool/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common-manylinux.crosstool' \
+		-e '/common.webassembly/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.webassembly' \
+		-e '/common.windows/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.windows' \
+		-e '/common.dockcross/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.dockcross' \
+		-e '/common.label-and-env/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.label-and-env' \
+		$< > $@
+
+web-wasi.test: web-wasi test.prerequisites
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  Modification time never checked.
+#  File has not been updated.
+# automatic
+# @ := web-wasi.test
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := test.prerequisites
+# automatic
+# | := 
+# automatic
+# < := 
+# automatic
+# ^ := test.prerequisites
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/9=11%
+#  recipe to execute (from 'Makefile', line 246):
+	$(DOCKER) run $(RM) $(ORG)/$(basename $@) > $(BIN)/dockcross-$(basename $@) \
+		&& chmod +x $(BIN)/dockcross-$(basename $@)
+	$(BIN)/dockcross-$(basename $@) python3 test/run.py $($@_ARGS)
+
+# Not a target:
+windows-static-x64/Dockerfile.in:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+linux-mips: linux-mips/Dockerfile base
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'linux-mips'
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 214):
+	mkdir -p $@/imagefiles && cp -r imagefiles $@/
+	$(DOCKER) build -t $(ORG)/$@:latest \
+		-t $(ORG)/$@:$(TAG) \
+		--build-arg IMAGE=$(ORG)/$@ \
+		--build-arg VCS_REF=`git rev-parse --short HEAD` \
+		--build-arg VCS_URL=`git config --get remote.origin.url` \
+		--build-arg BUILD_DATE=`date -u +"%Y-%m-%dT%H:%M:%SZ"` \
+		$@
+	rm -rf $@/imagefiles
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-19 16:03:29.807891455
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+linux-armv6/Dockerfile.in:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+linux-mipsel-lts/Dockerfile: linux-mipsel-lts/Dockerfile.in common/common.docker common/common.debian common/common.manylinux common/common.buildroot common/common.crosstool common/common.webassembly common/common.windows common/common-manylinux.crosstool common/common.dockcross common/common.label-and-env
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'linux-mipsel-lts/'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 94):
+	sed \
+		-e '/common.docker/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.docker' \
+		-e '/common.debian/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.debian' \
+		-e '/common.manylinux/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.manylinux' \
+		-e '/common.crosstool/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.crosstool' \
+		-e '/common.buildroot/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.buildroot' \
+		-e '/common-manylinux.crosstool/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common-manylinux.crosstool' \
+		-e '/common.webassembly/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.webassembly' \
+		-e '/common.windows/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.windows' \
+		-e '/common.dockcross/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.dockcross' \
+		-e '/common.label-and-env/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.label-and-env' \
+		$< > $@
+
+linux-armv7l-musl.test: linux-armv7l-musl test.prerequisites
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  Modification time never checked.
+#  File has not been updated.
+# automatic
+# @ := linux-armv7l-musl.test
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := test.prerequisites
+# automatic
+# | := 
+# automatic
+# < := 
+# automatic
+# ^ := test.prerequisites
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/9=11%
+#  recipe to execute (from 'Makefile', line 246):
+	$(DOCKER) run $(RM) $(ORG)/$(basename $@) > $(BIN)/dockcross-$(basename $@) \
+		&& chmod +x $(BIN)/dockcross-$(basename $@)
+	$(BIN)/dockcross-$(basename $@) python3 test/run.py $($@_ARGS)
+
+# Not a target:
+linux-mipsel-lts/Dockerfile.in:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+android-arm64/Dockerfile: android-arm64/Dockerfile.in common/common.docker common/common.debian common/common.manylinux common/common.buildroot common/common.crosstool common/common.webassembly common/common.windows common/common-manylinux.crosstool common/common.dockcross common/common.label-and-env
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'android-arm64/'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 94):
+	sed \
+		-e '/common.docker/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.docker' \
+		-e '/common.debian/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.debian' \
+		-e '/common.manylinux/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.manylinux' \
+		-e '/common.crosstool/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.crosstool' \
+		-e '/common.buildroot/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.buildroot' \
+		-e '/common-manylinux.crosstool/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common-manylinux.crosstool' \
+		-e '/common.webassembly/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.webassembly' \
+		-e '/common.windows/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.windows' \
+		-e '/common.dockcross/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.dockcross' \
+		-e '/common.label-and-env/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.label-and-env' \
+		$< > $@
+
+# Not a target:
+android-arm64/Dockerfile.in:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+linux-x86_64-full: linux-x86_64-full/Dockerfile base
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'linux-x86_64-full'
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 214):
+	mkdir -p $@/imagefiles && cp -r imagefiles $@/
+	$(DOCKER) build -t $(ORG)/$@:latest \
+		-t $(ORG)/$@:$(TAG) \
+		--build-arg IMAGE=$(ORG)/$@ \
+		--build-arg VCS_REF=`git rev-parse --short HEAD` \
+		--build-arg VCS_URL=`git config --get remote.origin.url` \
+		--build-arg BUILD_DATE=`date -u +"%Y-%m-%dT%H:%M:%SZ"` \
+		$@
+	rm -rf $@/imagefiles
+
+windows-static-x86/Dockerfile: windows-static-x86/Dockerfile.in common/common.docker common/common.debian common/common.manylinux common/common.buildroot common/common.crosstool common/common.webassembly common/common.windows common/common-manylinux.crosstool common/common.dockcross common/common.label-and-env
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'windows-static-x86/'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 94):
+	sed \
+		-e '/common.docker/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.docker' \
+		-e '/common.debian/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.debian' \
+		-e '/common.manylinux/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.manylinux' \
+		-e '/common.crosstool/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.crosstool' \
+		-e '/common.buildroot/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.buildroot' \
+		-e '/common-manylinux.crosstool/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common-manylinux.crosstool' \
+		-e '/common.webassembly/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.webassembly' \
+		-e '/common.windows/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.windows' \
+		-e '/common.dockcross/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.dockcross' \
+		-e '/common.label-and-env/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.label-and-env' \
+		$< > $@
+
+web-wasi: web-wasi/Dockerfile base
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'web-wasi'
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 214):
+	mkdir -p $@/imagefiles && cp -r imagefiles $@/
+	$(DOCKER) build -t $(ORG)/$@:latest \
+		-t $(ORG)/$@:$(TAG) \
+		--build-arg IMAGE=$(ORG)/$@ \
+		--build-arg VCS_REF=`git rev-parse --short HEAD` \
+		--build-arg VCS_URL=`git config --get remote.origin.url` \
+		--build-arg BUILD_DATE=`date -u +"%Y-%m-%dT%H:%M:%SZ"` \
+		$@
+	rm -rf $@/imagefiles
+
+linux-x64: linux-x64/Dockerfile base
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'linux-x64'
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 214):
+	mkdir -p $@/imagefiles && cp -r imagefiles $@/
+	$(DOCKER) build -t $(ORG)/$@:latest \
+		-t $(ORG)/$@:$(TAG) \
+		--build-arg IMAGE=$(ORG)/$@ \
+		--build-arg VCS_REF=`git rev-parse --short HEAD` \
+		--build-arg VCS_URL=`git config --get remote.origin.url` \
+		--build-arg BUILD_DATE=`date -u +"%Y-%m-%dT%H:%M:%SZ"` \
+		$@
+	rm -rf $@/imagefiles
+
+linux-arm64-lts/Dockerfile: linux-arm64-lts/Dockerfile.in common/common.docker common/common.debian common/common.manylinux common/common.buildroot common/common.crosstool common/common.webassembly common/common.windows common/common-manylinux.crosstool common/common.dockcross common/common.label-and-env
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'linux-arm64-lts/'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 94):
+	sed \
+		-e '/common.docker/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.docker' \
+		-e '/common.debian/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.debian' \
+		-e '/common.manylinux/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.manylinux' \
+		-e '/common.crosstool/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.crosstool' \
+		-e '/common.buildroot/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.buildroot' \
+		-e '/common-manylinux.crosstool/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common-manylinux.crosstool' \
+		-e '/common.webassembly/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.webassembly' \
+		-e '/common.windows/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.windows' \
+		-e '/common.dockcross/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.dockcross' \
+		-e '/common.label-and-env/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.label-and-env' \
+		$< > $@
+ 
+
+# Not a target:
+linux-arm64-lts/Dockerfile.in:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+linux-armv7-lts.test: linux-armv7-lts test.prerequisites
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  Modification time never checked.
+#  File has not been updated.
+# automatic
+# @ := linux-armv7-lts.test
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := test.prerequisites
+# automatic
+# | := 
+# automatic
+# < := 
+# automatic
+# ^ := test.prerequisites
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/9=11%
+#  recipe to execute (from 'Makefile', line 246):
+	$(DOCKER) run $(RM) $(ORG)/$(basename $@) > $(BIN)/dockcross-$(basename $@) \
+		&& chmod +x $(BIN)/dockcross-$(basename $@)
+	$(BIN)/dockcross-$(basename $@) python3 test/run.py $($@_ARGS)
+
+windows-static-x64.test: windows-static-x64 test.prerequisites
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  Modification time never checked.
+#  File has not been updated.
+# automatic
+# @ := windows-static-x64.test
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := test.prerequisites
+# automatic
+# | := 
+# automatic
+# < := 
+# automatic
+# ^ := test.prerequisites
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/9=11%
+#  recipe to execute (from 'Makefile', line 246):
+	$(DOCKER) run $(RM) $(ORG)/$(basename $@) > $(BIN)/dockcross-$(basename $@) \
+		&& chmod +x $(BIN)/dockcross-$(basename $@)
+	$(BIN)/dockcross-$(basename $@) python3 test/run.py $($@_ARGS)
+
+linux-armv6/Dockerfile: linux-armv6/Dockerfile.in common/common.docker common/common.debian common/common.manylinux common/common.buildroot common/common.crosstool common/common.webassembly common/common.windows common/common-manylinux.crosstool common/common.dockcross common/common.label-and-env
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'linux-armv6/'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 94):
+	sed \
+		-e '/common.docker/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.docker' \
+		-e '/common.debian/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.debian' \
+		-e '/common.manylinux/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.manylinux' \
+		-e '/common.crosstool/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.crosstool' \
+		-e '/common.buildroot/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.buildroot' \
+		-e '/common-manylinux.crosstool/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common-manylinux.crosstool' \
+		-e '/common.webassembly/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.webassembly' \
+		-e '/common.windows/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.windows' \
+		-e '/common.dockcross/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.dockcross' \
+		-e '/common.label-and-env/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.label-and-env' \
+		$< > $@
+
+linux-x86/Dockerfile: linux-x86/Dockerfile.in common/common.docker common/common.debian common/common.manylinux common/common.buildroot common/common.crosstool common/common.webassembly common/common.windows common/common-manylinux.crosstool common/common.dockcross common/common.label-and-env
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'linux-x86/'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 94):
+	sed \
+		-e '/common.docker/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.docker' \
+		-e '/common.debian/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.debian' \
+		-e '/common.manylinux/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.manylinux' \
+		-e '/common.crosstool/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.crosstool' \
+		-e '/common.buildroot/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.buildroot' \
+		-e '/common-manylinux.crosstool/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common-manylinux.crosstool' \
+		-e '/common.webassembly/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.webassembly' \
+		-e '/common.windows/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.windows' \
+		-e '/common.dockcross/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.dockcross' \
+		-e '/common.label-and-env/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.label-and-env' \
+		$< > $@
+
+windows-static-x64: windows-static-x64/Dockerfile base
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'windows-static-x64'
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 214):
+	mkdir -p $@/imagefiles && cp -r imagefiles $@/
+	$(DOCKER) build -t $(ORG)/$@:latest \
+		-t $(ORG)/$@:$(TAG) \
+		--build-arg IMAGE=$(ORG)/$@ \
+		--build-arg VCS_REF=`git rev-parse --short HEAD` \
+		--build-arg VCS_URL=`git config --get remote.origin.url` \
+		--build-arg BUILD_DATE=`date -u +"%Y-%m-%dT%H:%M:%SZ"` \
+		$@
+	rm -rf $@/imagefiles
+
+windows-shared-x64/Dockerfile: windows-shared-x64/Dockerfile.in common/common.docker common/common.debian common/common.manylinux common/common.buildroot common/common.crosstool common/common.webassembly common/common.windows common/common-manylinux.crosstool common/common.dockcross common/common.label-and-env
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'windows-shared-x64/'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 94):
+	sed \
+		-e '/common.docker/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.docker' \
+		-e '/common.debian/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.debian' \
+		-e '/common.manylinux/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.manylinux' \
+		-e '/common.crosstool/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.crosstool' \
+		-e '/common.buildroot/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.buildroot' \
+		-e '/common-manylinux.crosstool/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common-manylinux.crosstool' \
+		-e '/common.webassembly/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.webassembly' \
+		-e '/common.windows/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.windows' \
+		-e '/common.dockcross/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.dockcross' \
+		-e '/common.label-and-env/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.label-and-env' \
+		$< > $@
+
+linux-armv6.test: linux-armv6 test.prerequisites
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  Modification time never checked.
+#  File has not been updated.
+# automatic
+# @ := linux-armv6.test
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := test.prerequisites
+# automatic
+# | := 
+# automatic
+# < := 
+# automatic
+# ^ := test.prerequisites
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/9=11%
+#  recipe to execute (from 'Makefile', line 246):
+	$(DOCKER) run $(RM) $(ORG)/$(basename $@) > $(BIN)/dockcross-$(basename $@) \
+		&& chmod +x $(BIN)/dockcross-$(basename $@)
+	$(BIN)/dockcross-$(basename $@) python3 test/run.py $($@_ARGS)
+
+# Not a target:
+windows-shared-x64/Dockerfile.in:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+linux-armv6: linux-armv6/Dockerfile base
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'linux-armv6'
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 214):
+	mkdir -p $@/imagefiles && cp -r imagefiles $@/
+	$(DOCKER) build -t $(ORG)/$@:latest \
+		-t $(ORG)/$@:$(TAG) \
+		--build-arg IMAGE=$(ORG)/$@ \
+		--build-arg VCS_REF=`git rev-parse --short HEAD` \
+		--build-arg VCS_URL=`git config --get remote.origin.url` \
+		--build-arg BUILD_DATE=`date -u +"%Y-%m-%dT%H:%M:%SZ"` \
+		$@
+	rm -rf $@/imagefiles
+
+linux-mipsel-lts.test: linux-mipsel-lts test.prerequisites
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  Modification time never checked.
+#  File has not been updated.
+# automatic
+# @ := linux-mipsel-lts.test
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := test.prerequisites
+# automatic
+# | := 
+# automatic
+# < := 
+# automatic
+# ^ := test.prerequisites
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/9=11%
+#  recipe to execute (from 'Makefile', line 246):
+	$(DOCKER) run $(RM) $(ORG)/$(basename $@) > $(BIN)/dockcross-$(basename $@) \
+		&& chmod +x $(BIN)/dockcross-$(basename $@)
+	$(BIN)/dockcross-$(basename $@) python3 test/run.py $($@_ARGS)
+
+%.test:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+android-arm64.test: android-arm64 test.prerequisites
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  Modification time never checked.
+#  File has not been updated.
+# automatic
+# @ := android-arm64.test
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := test.prerequisites
+# automatic
+# | := 
+# automatic
+# < := 
+# automatic
+# ^ := test.prerequisites
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/9=11%
+#  recipe to execute (from 'Makefile', line 246):
+	$(DOCKER) run $(RM) $(ORG)/$(basename $@) > $(BIN)/dockcross-$(basename $@) \
+		&& chmod +x $(BIN)/dockcross-$(basename $@)
+	$(BIN)/dockcross-$(basename $@) python3 test/run.py $($@_ARGS)
+
+linux-armv7-lts: linux-armv7-lts/Dockerfile base
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'linux-armv7-lts'
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 214):
+	mkdir -p $@/imagefiles && cp -r imagefiles $@/
+	$(DOCKER) build -t $(ORG)/$@:latest \
+		-t $(ORG)/$@:$(TAG) \
+		--build-arg IMAGE=$(ORG)/$@ \
+		--build-arg VCS_REF=`git rev-parse --short HEAD` \
+		--build-arg VCS_URL=`git config --get remote.origin.url` \
+		--build-arg BUILD_DATE=`date -u +"%Y-%m-%dT%H:%M:%SZ"` \
+		$@
+	rm -rf $@/imagefiles
+
+android-arm64: android-arm64/Dockerfile base
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'android-arm64'
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 214):
+	mkdir -p $@/imagefiles && cp -r imagefiles $@/
+	$(DOCKER) build -t $(ORG)/$@:latest \
+		-t $(ORG)/$@:$(TAG) \
+		--build-arg IMAGE=$(ORG)/$@ \
+		--build-arg VCS_REF=`git rev-parse --short HEAD` \
+		--build-arg VCS_URL=`git config --get remote.origin.url` \
+		--build-arg BUILD_DATE=`date -u +"%Y-%m-%dT%H:%M:%SZ"` \
+		$@
+	rm -rf $@/imagefiles
+
+# Not a target:
+windows-static-x86/Dockerfile.in:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+linux-m68k-uclibc/Dockerfile: linux-m68k-uclibc/Dockerfile.in common/common.docker common/common.debian common/common.manylinux common/common.buildroot common/common.crosstool common/common.webassembly common/common.windows common/common-manylinux.crosstool common/common.dockcross common/common.label-and-env
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'linux-m68k-uclibc/'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 94):
+	sed \
+		-e '/common.docker/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.docker' \
+		-e '/common.debian/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.debian' \
+		-e '/common.manylinux/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.manylinux' \
+		-e '/common.crosstool/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.crosstool' \
+		-e '/common.buildroot/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.buildroot' \
+		-e '/common-manylinux.crosstool/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common-manylinux.crosstool' \
+		-e '/common.webassembly/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.webassembly' \
+		-e '/common.windows/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.windows' \
+		-e '/common.dockcross/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.dockcross' \
+		-e '/common.label-and-env/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.label-and-env' \
+		$< > $@
+
+# Not a target:
+linux-s390x/Dockerfile.in:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+linux-m68k-uclibc/Dockerfile.in:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+linux-arm64-lts.test: linux-arm64-lts test.prerequisites
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+ 
+#  Modification time never checked.
+#  File has not been updated.
+# automatic
+# @ := linux-arm64-lts.test
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := test.prerequisites
+# automatic
+# | := 
+# automatic
+# < := 
+# automatic
+# ^ := test.prerequisites
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/9=11%
+#  recipe to execute (from 'Makefile', line 246):
+	$(DOCKER) run $(RM) $(ORG)/$(basename $@) > $(BIN)/dockcross-$(basename $@) \
+		&& chmod +x $(BIN)/dockcross-$(basename $@)
+	$(BIN)/dockcross-$(basename $@) python3 test/run.py $($@_ARGS)
+
+images: base android-arm android-arm64 android-x86 android-x86_64 linux-x86 linux-x64 linux-x64-clang linux-arm64 linux-arm64-musl linux-arm64-full linux-armv5 linux-armv5-musl linux-armv5-uclibc linux-m68k-uclibc linux-s390x linux-x64-tinycc linux-armv6 linux-armv6-lts linux-armv6-musl linux-arm64-lts linux-mipsel-lts linux-armv7l-musl linux-armv7 linux-armv7a linux-armv7-lts linux-x86_64-full linux-mips linux-mips-lts linux-ppc64le linux-riscv64 linux-riscv32 linux-xtensa-uclibc web-wasi windows-static-x86 windows-static-x64 windows-static-x64-posix windows-armv7 windows-shared-x86 windows-shared-x64 windows-shared-x64-posix windows-arm64 manylinux2014-x64 manylinux2014-x86 manylinux2014-aarch64 web-wasm
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+linux-mipsel-lts: linux-mipsel-lts/Dockerfile base
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'linux-mipsel-lts'
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 214):
+	mkdir -p $@/imagefiles && cp -r imagefiles $@/
+	$(DOCKER) build -t $(ORG)/$@:latest \
+		-t $(ORG)/$@:$(TAG) \
+		--build-arg IMAGE=$(ORG)/$@ \
+		--build-arg VCS_REF=`git rev-parse --short HEAD` \
+		--build-arg VCS_URL=`git config --get remote.origin.url` \
+		--build-arg BUILD_DATE=`date -u +"%Y-%m-%dT%H:%M:%SZ"` \
+		$@
+	rm -rf $@/imagefiles
+
+linux-x86.test: linux-x86 test.prerequisites
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  Modification time never checked.
+#  File has not been updated.
+# automatic
+# @ := linux-x86.test
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := test.prerequisites
+# automatic
+# | := 
+# automatic
+# < := 
+# automatic
+# ^ := test.prerequisites
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/9=11%
+#  recipe to execute (from 'Makefile', line 246):
+	$(DOCKER) run $(RM) $(ORG)/$(basename $@) > $(BIN)/dockcross-$(basename $@) \
+		&& chmod +x $(BIN)/dockcross-$(basename $@)
+	$(BIN)/dockcross-$(basename $@) python3 test/run.py $($@_ARGS)
+
+windows-shared-x64.test: windows-shared-x64 test.prerequisites
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  Modification time never checked.
+#  File has not been updated.
+# automatic
+# @ := windows-shared-x64.test
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := test.prerequisites
+# automatic
+# | := 
+# automatic
+# < := 
+# automatic
+# ^ := test.prerequisites
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/9=11%
+#  recipe to execute (from 'Makefile', line 246):
+	$(DOCKER) run $(RM) $(ORG)/$(basename $@) > $(BIN)/dockcross-$(basename $@) \
+		&& chmod +x $(BIN)/dockcross-$(basename $@)
+	$(BIN)/dockcross-$(basename $@) python3 test/run.py $($@_ARGS)
+
+linux-x86: linux-x86/Dockerfile base
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'linux-x86'
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 214):
+	mkdir -p $@/imagefiles && cp -r imagefiles $@/
+	$(DOCKER) build -t $(ORG)/$@:latest \
+		-t $(ORG)/$@:$(TAG) \
+		--build-arg IMAGE=$(ORG)/$@ \
+		--build-arg VCS_REF=`git rev-parse --short HEAD` \
+		--build-arg VCS_URL=`git config --get remote.origin.url` \
+		--build-arg BUILD_DATE=`date -u +"%Y-%m-%dT%H:%M:%SZ"` \
+		$@
+	rm -rf $@/imagefiles
+
+windows-shared-x64: windows-shared-x64/Dockerfile base
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'windows-shared-x64'
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 214):
+	mkdir -p $@/imagefiles && cp -r imagefiles $@/
+	$(DOCKER) build -t $(ORG)/$@:latest \
+		-t $(ORG)/$@:$(TAG) \
+		--build-arg IMAGE=$(ORG)/$@ \
+		--build-arg VCS_REF=`git rev-parse --short HEAD` \
+		--build-arg VCS_URL=`git config --get remote.origin.url` \
+		--build-arg BUILD_DATE=`date -u +"%Y-%m-%dT%H:%M:%SZ"` \
+		$@
+	rm -rf $@/imagefiles
+
+manylinux2014-x86: manylinux2014-x86/Dockerfile
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 177):
+	mkdir -p $@/imagefiles && cp -r imagefiles $@/
+	$(DOCKER) build -t $(ORG)/manylinux2014-x86:latest \
+		-t $(ORG)/manylinux2014-x86:$(TAG) \
+		--build-arg IMAGE=$(ORG)/manylinux2014-x86 \
+		--build-arg VCS_REF=`git rev-parse --short HEAD` \
+		--build-arg VCS_URL=`git config --get remote.origin.url` \
+		--build-arg BUILD_DATE=`date -u +"%Y-%m-%dT%H:%M:%SZ"` \
+		-f manylinux2014-x86/Dockerfile .
+	rm -rf $@/imagefiles
+
+.SECONDEXPANSION:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+linux-arm64-lts: linux-arm64-lts/Dockerfile base
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'linux-arm64-lts'
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 214):
+	mkdir -p $@/imagefiles && cp -r imagefiles $@/
+	$(DOCKER) build -t $(ORG)/$@:latest \
+		-t $(ORG)/$@:$(TAG) \
+		--build-arg IMAGE=$(ORG)/$@ \
+		--build-arg VCS_REF=`git rev-parse --short HEAD` \
+		--build-arg VCS_URL=`git config --get remote.origin.url` \
+		--build-arg BUILD_DATE=`date -u +"%Y-%m-%dT%H:%M:%SZ"` \
+		$@
+	rm -rf $@/imagefiles
+
+purge: clean
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 232):
+	$(DOCKER) container ls -aq | xargs -r $(DOCKER) container rm -f
+	$(DOCKER) images --filter=reference='$(ORG)/*' --format='{{.Repository}}:{{.Tag}}' | xargs -r $(DOCKER) rmi -f
+
+windows-static-x86.test: windows-static-x86 test.prerequisites
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  Modification time never checked.
+#  File has not been updated.
+# automatic
+# @ := windows-static-x86.test
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := test.prerequisites
+# automatic
+# | := 
+# automatic
+# < := 
+# automatic
+# ^ := test.prerequisites
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/9=11%
+#  recipe to execute (from 'Makefile', line 246):
+	$(DOCKER) run $(RM) $(ORG)/$(basename $@) > $(BIN)/dockcross-$(basename $@) \
+		&& chmod +x $(BIN)/dockcross-$(basename $@)
+	$(BIN)/dockcross-$(basename $@) python3 test/run.py $($@_ARGS)
+
+linux-x64-clang/Dockerfile: linux-x64-clang/Dockerfile.in common/common.docker common/common.debian common/common.manylinux common/common.buildroot common/common.crosstool common/common.webassembly common/common.windows common/common-manylinux.crosstool common/common.dockcross common/common.label-and-env
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'linux-x64-clang/'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 94):
+	sed \
+		-e '/common.docker/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.docker' \
+		-e '/common.debian/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.debian' \
+		-e '/common.manylinux/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.manylinux' \
+		-e '/common.crosstool/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.crosstool' \
+		-e '/common.buildroot/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.buildroot' \
+		-e '/common-manylinux.crosstool/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common-manylinux.crosstool' \
+		-e '/common.webassembly/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.webassembly' \
+		-e '/common.windows/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.windows' \
+		-e '/common.dockcross/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.dockcross' \
+		-e '/common.label-and-env/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.label-and-env' \
+		$< > $@
+
+.SILENT: display_images
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+linux-s390x.test: linux-s390x test.prerequisites
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  Modification time never checked.
+#  File has not been updated.
+# automatic
+# @ := linux-s390x.test
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := test.prerequisites
+# automatic
+# | := 
+# automatic
+# < := 
+# automatic
+# ^ := test.prerequisites
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/9=11%
+#  recipe to execute (from 'Makefile', line 246):
+	$(DOCKER) run $(RM) $(ORG)/$(basename $@) > $(BIN)/dockcross-$(basename $@) \
+		&& chmod +x $(BIN)/dockcross-$(basename $@)
+	$(BIN)/dockcross-$(basename $@) python3 test/run.py $($@_ARGS)
+
+windows-static-x86: windows-static-x86/Dockerfile base
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'windows-static-x86'
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 214):
+	mkdir -p $@/imagefiles && cp -r imagefiles $@/
+	$(DOCKER) build -t $(ORG)/$@:latest \
+		-t $(ORG)/$@:$(TAG) \
+		--build-arg IMAGE=$(ORG)/$@ \
+		--build-arg VCS_REF=`git rev-parse --short HEAD` \
+		--build-arg VCS_URL=`git config --get remote.origin.url` \
+		--build-arg BUILD_DATE=`date -u +"%Y-%m-%dT%H:%M:%SZ"` \
+		$@
+	rm -rf $@/imagefiles
+
+linux-m68k-uclibc.test: linux-m68k-uclibc test.prerequisites
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  Modification time never checked.
+#  File has not been updated.
+# automatic
+# @ := linux-m68k-uclibc.test
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := test.prerequisites
+# automatic
+# | := 
+# automatic
+# < := 
+# automatic
+# ^ := test.prerequisites
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/9=11%
+#  recipe to execute (from 'Makefile', line 246):
+	$(DOCKER) run $(RM) $(ORG)/$(basename $@) > $(BIN)/dockcross-$(basename $@) \
+		&& chmod +x $(BIN)/dockcross-$(basename $@)
+	$(BIN)/dockcross-$(basename $@) python3 test/run.py $($@_ARGS)
+ 
+
+# Not a target:
+linux-x64-clang/Dockerfile.in:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+windows-shared-x86/Dockerfile.in:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+linux-arm64-full.test: linux-arm64-full test.prerequisites
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  Modification time never checked.
+#  File has not been updated.
+# automatic
+# @ := linux-arm64-full.test
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := test.prerequisites
+# automatic
+# | := 
+# automatic
+# < := 
+# automatic
+# ^ := test.prerequisites
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/9=11%
+#  recipe to execute (from 'Makefile', line 246):
+	$(DOCKER) run $(RM) $(ORG)/$(basename $@) > $(BIN)/dockcross-$(basename $@) \
+		&& chmod +x $(BIN)/dockcross-$(basename $@)
+	$(BIN)/dockcross-$(basename $@) python3 test/run.py $($@_ARGS)
+
+# Not a target:
+linux-x64-tinycc/Dockerfile.in:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+linux-x64-tinycc/Dockerfile: linux-x64-tinycc/Dockerfile.in common/common.docker common/common.debian common/common.manylinux common/common.buildroot common/common.crosstool common/common.webassembly common/common.windows common/common-manylinux.crosstool common/common.dockcross common/common.label-and-env
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'linux-x64-tinycc/'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 94):
+	sed \
+		-e '/common.docker/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.docker' \
+		-e '/common.debian/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.debian' \
+		-e '/common.manylinux/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.manylinux' \
+		-e '/common.crosstool/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.crosstool' \
+		-e '/common.buildroot/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.buildroot' \
+		-e '/common-manylinux.crosstool/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common-manylinux.crosstool' \
+		-e '/common.webassembly/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.webassembly' \
+		-e '/common.windows/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.windows' \
+		-e '/common.dockcross/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.dockcross' \
+		-e '/common.label-and-env/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.label-and-env' \
+		$< > $@
+
+base.test: base test.prerequisites
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 200):
+	$(DOCKER) run $(RM) $(ORG)/base > $(BIN)/dockcross-base && chmod +x $(BIN)/dockcross-base
+
+linux-m68k-uclibc: linux-m68k-uclibc/Dockerfile base
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'linux-m68k-uclibc'
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 214):
+	mkdir -p $@/imagefiles && cp -r imagefiles $@/
+	$(DOCKER) build -t $(ORG)/$@:latest \
+		-t $(ORG)/$@:$(TAG) \
+		--build-arg IMAGE=$(ORG)/$@ \
+		--build-arg VCS_REF=`git rev-parse --short HEAD` \
+		--build-arg VCS_URL=`git config --get remote.origin.url` \
+		--build-arg BUILD_DATE=`date -u +"%Y-%m-%dT%H:%M:%SZ"` \
+		$@
+	rm -rf $@/imagefiles
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+linux-armv6-musl/Dockerfile: linux-armv6-musl/Dockerfile.in common/common.docker common/common.debian common/common.manylinux common/common.buildroot common/common.crosstool common/common.webassembly common/common.windows common/common-manylinux.crosstool common/common.dockcross common/common.label-and-env
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'linux-armv6-musl/'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 94):
+	sed \
+		-e '/common.docker/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.docker' \
+		-e '/common.debian/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.debian' \
+		-e '/common.manylinux/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.manylinux' \
+		-e '/common.crosstool/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.crosstool' \
+		-e '/common.buildroot/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.buildroot' \
+		-e '/common-manylinux.crosstool/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common-manylinux.crosstool' \
+		-e '/common.webassembly/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.webassembly' \
+		-e '/common.windows/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.windows' \
+		-e '/common.dockcross/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.dockcross' \
+		-e '/common.label-and-env/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.label-and-env' \
+		$< > $@
+
+# Not a target:
+linux-armv5/Dockerfile.in:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+linux-armv6-musl/Dockerfile.in:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+linux-s390x: linux-s390x/Dockerfile base
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'linux-s390x'
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 214):
+	mkdir -p $@/imagefiles && cp -r imagefiles $@/
+	$(DOCKER) build -t $(ORG)/$@:latest \
+		-t $(ORG)/$@:$(TAG) \
+		--build-arg IMAGE=$(ORG)/$@ \
+		--build-arg VCS_REF=`git rev-parse --short HEAD` \
+		--build-arg VCS_URL=`git config --get remote.origin.url` \
+		--build-arg BUILD_DATE=`date -u +"%Y-%m-%dT%H:%M:%SZ"` \
+		$@
+	rm -rf $@/imagefiles
+
+linux-x64-clang.test: linux-x64-clang test.prerequisites
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  Modification time never checked.
+#  File has not been updated.
+# automatic
+# @ := linux-x64-clang.test
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := test.prerequisites
+# automatic
+# | := 
+# automatic
+# < := 
+# automatic
+# ^ := test.prerequisites
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/9=11%
+#  recipe to execute (from 'Makefile', line 246):
+	$(DOCKER) run $(RM) $(ORG)/$(basename $@) > $(BIN)/dockcross-$(basename $@) \
+		&& chmod +x $(BIN)/dockcross-$(basename $@)
+	$(BIN)/dockcross-$(basename $@) python3 test/run.py $($@_ARGS)
+
+windows-shared-x86.test: windows-shared-x86 test.prerequisites
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  Modification time never checked.
+#  File has not been updated.
+# automatic
+# @ := windows-shared-x86.test
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := test.prerequisites
+# automatic
+# | := 
+# automatic
+# < := 
+# automatic
+# ^ := test.prerequisites
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/9=11%
+#  recipe to execute (from 'Makefile', line 246):
+	$(DOCKER) run $(RM) $(ORG)/$(basename $@) > $(BIN)/dockcross-$(basename $@) \
+		&& chmod +x $(BIN)/dockcross-$(basename $@)
+	$(BIN)/dockcross-$(basename $@) python3 test/run.py $($@_ARGS)
+
+base: Dockerfile imagefiles/
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 193):
+	$(DOCKER) build -t $(ORG)/base:latest \
+		-t $(ORG)/base:$(TAG) \
+		--build-arg IMAGE=$(ORG)/base \
+		--build-arg VCS_URL=`git config --get remote.origin.url` \
+		.
+
+test: base.test android-arm.test android-arm64.test android-x86.test android-x86_64.test linux-x86.test linux-x64.test linux-x64-clang.test linux-arm64.test linux-arm64-musl.test linux-arm64-full.test linux-armv5.test linux-armv5-musl.test linux-armv5-uclibc.test linux-m68k-uclibc.test linux-s390x.test linux-x64-tinycc.test linux-armv6.test linux-armv6-lts.test linux-armv6-musl.test linux-arm64-lts.test linux-mipsel-lts.test linux-armv7l-musl.test linux-armv7.test linux-armv7a.test linux-armv7-lts.test linux-x86_64-full.test linux-mips.test linux-mips-lts.test linux-ppc64le.test linux-riscv64.test linux-riscv32.test linux-xtensa-uclibc.test web-wasi.test windows-static-x86.test windows-static-x64.test windows-static-x64-posix.test windows-armv7.test windows-shared-x86.test windows-shared-x64.test windows-shared-x64-posix.test windows-arm64.test manylinux2014-x64.test manylinux2014-x86.test manylinux2014-aarch64.test web-wasm.test
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+windows-shared-x86: windows-shared-x86/Dockerfile base
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'windows-shared-x86'
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 214):
+	mkdir -p $@/imagefiles && cp -r imagefiles $@/
+	$(DOCKER) build -t $(ORG)/$@:latest \
+		-t $(ORG)/$@:$(TAG) \
+		--build-arg IMAGE=$(ORG)/$@ \
+		--build-arg VCS_REF=`git rev-parse --short HEAD` \
+		--build-arg VCS_URL=`git config --get remote.origin.url` \
+		--build-arg BUILD_DATE=`date -u +"%Y-%m-%dT%H:%M:%SZ"` \
+		$@
+	rm -rf $@/imagefiles
+
+android-arm/Dockerfile: android-arm/Dockerfile.in common/common.docker common/common.debian common/common.manylinux common/common.buildroot common/common.crosstool common/common.webassembly common/common.windows common/common-manylinux.crosstool common/common.dockcross common/common.label-and-env
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'android-arm/'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 94):
+	sed \
+		-e '/common.docker/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.docker' \
+		-e '/common.debian/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.debian' \
+		-e '/common.manylinux/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.manylinux' \
+		-e '/common.crosstool/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.crosstool' \
+		-e '/common.buildroot/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.buildroot' \
+		-e '/common-manylinux.crosstool/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common-manylinux.crosstool' \
+		-e '/common.webassembly/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.webassembly' \
+		-e '/common.windows/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.windows' \
+		-e '/common.dockcross/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.dockcross' \
+		-e '/common.label-and-env/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.label-and-env' \
+		$< > $@
+
+# Not a target:
+android-arm/Dockerfile.in:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+web-wasm/Dockerfile: web-wasm/Dockerfile.in common/common.docker common/common.debian common/common.manylinux common/common.buildroot common/common.crosstool common/common.webassembly common/common.windows common/common-manylinux.crosstool common/common.dockcross common/common.label-and-env
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'web-wasm/'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 94):
+	sed \
+		-e '/common.docker/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.docker' \
+		-e '/common.debian/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.debian' \
+		-e '/common.manylinux/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.manylinux' \
+		-e '/common.crosstool/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.crosstool' \
+		-e '/common.buildroot/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.buildroot' \
+		-e '/common-manylinux.crosstool/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common-manylinux.crosstool' \
+		-e '/common.webassembly/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.webassembly' \
+		-e '/common.windows/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.windows' \
+		-e '/common.dockcross/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.dockcross' \
+		-e '/common.label-and-env/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.label-and-env' \
+		$< > $@
+
+# Not a target:
+linux-mips-lts/Dockerfile.in:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+web-wasm/Dockerfile.in:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 225):
+	for d in $(IMAGES) ; do rm -rf $$d/imagefiles ; done
+	for d in $(IMAGES) ; do rm -rf $(BIN)/dockcross-$$d ; done
+	for d in $(GEN_IMAGE_DOCKERFILES) ; do rm -f $$d ; done
+	rm -f Dockerfile
+
+# Not a target:
+common/common-manylinux.crosstool:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+linux-mips-lts/Dockerfile: linux-mips-lts/Dockerfile.in common/common.docker common/common.debian common/common.manylinux common/common.buildroot common/common.crosstool common/common.webassembly common/common.windows common/common-manylinux.crosstool common/common.dockcross common/common.label-and-env
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'linux-mips-lts/'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 94):
+	sed \
+		-e '/common.docker/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.docker' \
+		-e '/common.debian/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.debian' \
+		-e '/common.manylinux/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.manylinux' \
+		-e '/common.crosstool/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.crosstool' \
+		-e '/common.buildroot/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.buildroot' \
+		-e '/common-manylinux.crosstool/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common-manylinux.crosstool' \
+		-e '/common.webassembly/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.webassembly' \
+		-e '/common.windows/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.windows' \
+		-e '/common.dockcross/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.dockcross' \
+		-e '/common.label-and-env/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.label-and-env' \
+		$< > $@
+
+linux-x64-clang: linux-x64-clang/Dockerfile base
+ 
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'linux-x64-clang'
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 214):
+	mkdir -p $@/imagefiles && cp -r imagefiles $@/
+	$(DOCKER) build -t $(ORG)/$@:latest \
+		-t $(ORG)/$@:$(TAG) \
+		--build-arg IMAGE=$(ORG)/$@ \
+		--build-arg VCS_REF=`git rev-parse --short HEAD` \
+		--build-arg VCS_URL=`git config --get remote.origin.url` \
+		--build-arg BUILD_DATE=`date -u +"%Y-%m-%dT%H:%M:%SZ"` \
+		$@
+	rm -rf $@/imagefiles
+
+# Not a target:
+linux-armv7a/Dockerfile.in:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+linux-armv5.test: linux-armv5 test.prerequisites
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  Modification time never checked.
+#  File has not been updated.
+# automatic
+# @ := linux-armv5.test
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := test.prerequisites
+# automatic
+# | := 
+# automatic
+# < := 
+# automatic
+# ^ := test.prerequisites
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/9=11%
+#  recipe to execute (from 'Makefile', line 246):
+	$(DOCKER) run $(RM) $(ORG)/$(basename $@) > $(BIN)/dockcross-$(basename $@) \
+		&& chmod +x $(BIN)/dockcross-$(basename $@)
+	$(BIN)/dockcross-$(basename $@) python3 test/run.py $($@_ARGS)
+
+linux-armv6-musl.test: linux-armv6-musl test.prerequisites
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  Modification time never checked.
+#  File has not been updated.
+# automatic
+# @ := linux-armv6-musl.test
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := test.prerequisites
+# automatic
+# | := 
+# automatic
+# < := 
+# automatic
+# ^ := test.prerequisites
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/9=11%
+#  recipe to execute (from 'Makefile', line 246):
+	$(DOCKER) run $(RM) $(ORG)/$(basename $@) > $(BIN)/dockcross-$(basename $@) \
+		&& chmod +x $(BIN)/dockcross-$(basename $@)
+	$(BIN)/dockcross-$(basename $@) python3 test/run.py $($@_ARGS)
+
+linux-armv5: linux-armv5/Dockerfile base
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'linux-armv5'
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 214):
+	mkdir -p $@/imagefiles && cp -r imagefiles $@/
+	$(DOCKER) build -t $(ORG)/$@:latest \
+		-t $(ORG)/$@:$(TAG) \
+		--build-arg IMAGE=$(ORG)/$@ \
+		--build-arg VCS_REF=`git rev-parse --short HEAD` \
+		--build-arg VCS_URL=`git config --get remote.origin.url` \
+		--build-arg BUILD_DATE=`date -u +"%Y-%m-%dT%H:%M:%SZ"` \
+		$@
+	rm -rf $@/imagefiles
+
+# Not a target:
+android-x86_64/Dockerfile:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+windows-shared-x86/Dockerfile: windows-shared-x86/Dockerfile.in common/common.docker common/common.debian common/common.manylinux common/common.buildroot common/common.crosstool common/common.webassembly common/common.windows common/common-manylinux.crosstool common/common.dockcross common/common.label-and-env
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'windows-shared-x86/'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 94):
+	sed \
+		-e '/common.docker/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.docker' \
+		-e '/common.debian/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.debian' \
+		-e '/common.manylinux/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.manylinux' \
+		-e '/common.crosstool/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.crosstool' \
+		-e '/common.buildroot/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.buildroot' \
+		-e '/common-manylinux.crosstool/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common-manylinux.crosstool' \
+		-e '/common.webassembly/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.webassembly' \
+		-e '/common.windows/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.windows' \
+		-e '/common.dockcross/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.dockcross' \
+		-e '/common.label-and-env/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.label-and-env' \
+		$< > $@
+
+linux-x64-tinycc.test: linux-x64-tinycc test.prerequisites
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  Modification time never checked.
+#  File has not been updated.
+# automatic
+# @ := linux-x64-tinycc.test
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := test.prerequisites
+# automatic
+# | := 
+# automatic
+# < := 
+# automatic
+# ^ := test.prerequisites
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/9=11%
+#  recipe to execute (from 'Makefile', line 246):
+	$(DOCKER) run $(RM) $(ORG)/$(basename $@) > $(BIN)/dockcross-$(basename $@) \
+		&& chmod +x $(BIN)/dockcross-$(basename $@)
+	$(BIN)/dockcross-$(basename $@) python3 test/run.py $($@_ARGS)
+
+linux-arm64/Dockerfile: linux-arm64/Dockerfile.in common/common.docker common/common.debian common/common.manylinux common/common.buildroot common/common.crosstool common/common.webassembly common/common.windows common/common-manylinux.crosstool common/common.dockcross common/common.label-and-env
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'linux-arm64/'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 94):
+	sed \
+		-e '/common.docker/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.docker' \
+		-e '/common.debian/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.debian' \
+		-e '/common.manylinux/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.manylinux' \
+		-e '/common.crosstool/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.crosstool' \
+		-e '/common.buildroot/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.buildroot' \
+		-e '/common-manylinux.crosstool/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common-manylinux.crosstool' \
+		-e '/common.webassembly/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.webassembly' \
+		-e '/common.windows/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.windows' \
+		-e '/common.dockcross/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.dockcross' \
+		-e '/common.label-and-env/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.label-and-env' \
+		$< > $@
+
+# Not a target:
+linux-arm64/Dockerfile.in:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+android-arm.test: android-arm test.prerequisites
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  Modification time never checked.
+#  File has not been updated.
+# automatic
+# @ := android-arm.test
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := test.prerequisites
+# automatic
+# | := 
+# automatic
+# < := 
+# automatic
+# ^ := test.prerequisites
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/9=11%
+#  recipe to execute (from 'Makefile', line 246):
+	$(DOCKER) run $(RM) $(ORG)/$(basename $@) > $(BIN)/dockcross-$(basename $@) \
+		&& chmod +x $(BIN)/dockcross-$(basename $@)
+	$(BIN)/dockcross-$(basename $@) python3 test/run.py $($@_ARGS)
+
+linux-armv7a/Dockerfile: linux-armv7a/Dockerfile.in common/common.docker common/common.debian common/common.manylinux common/common.buildroot common/common.crosstool common/common.webassembly common/common.windows common/common-manylinux.crosstool common/common.dockcross common/common.label-and-env
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'linux-armv7a/'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 94):
+	sed \
+		-e '/common.docker/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.docker' \
+		-e '/common.debian/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.debian' \
+		-e '/common.manylinux/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.manylinux' \
+		-e '/common.crosstool/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.crosstool' \
+		-e '/common.buildroot/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.buildroot' \
+		-e '/common-manylinux.crosstool/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common-manylinux.crosstool' \
+		-e '/common.webassembly/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.webassembly' \
+		-e '/common.windows/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.windows' \
+		-e '/common.dockcross/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.dockcross' \
+		-e '/common.label-and-env/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.label-and-env' \
+		$< > $@
+
+linux-armv6-musl: linux-armv6-musl/Dockerfile base
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'linux-armv6-musl'
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 214):
+	mkdir -p $@/imagefiles && cp -r imagefiles $@/
+	$(DOCKER) build -t $(ORG)/$@:latest \
+		-t $(ORG)/$@:$(TAG) \
+		--build-arg IMAGE=$(ORG)/$@ \
+		--build-arg VCS_REF=`git rev-parse --short HEAD` \
+		--build-arg VCS_URL=`git config --get remote.origin.url` \
+		--build-arg BUILD_DATE=`date -u +"%Y-%m-%dT%H:%M:%SZ"` \
+		$@
+	rm -rf $@/imagefiles
+
+linux-armv7: linux-armv7/Dockerfile base
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'linux-armv7'
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 214):
+	mkdir -p $@/imagefiles && cp -r imagefiles $@/
+	$(DOCKER) build -t $(ORG)/$@:latest \
+		-t $(ORG)/$@:$(TAG) \
+		--build-arg IMAGE=$(ORG)/$@ \
+		--build-arg VCS_REF=`git rev-parse --short HEAD` \
+		--build-arg VCS_URL=`git config --get remote.origin.url` \
+		--build-arg BUILD_DATE=`date -u +"%Y-%m-%dT%H:%M:%SZ"` \
+		$@
+	rm -rf $@/imagefiles
+
+web-wasm.test: web-wasm test.prerequisites
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 124):
+	cp -r test web-wasm/
+	$(DOCKER) run $(RM) $(ORG)/web-wasm > $(BIN)/dockcross-web-wasm && chmod +x $(BIN)/dockcross-web-wasm
+	$(BIN)/dockcross-web-wasm python test/run.py --exe-suffix ".js"
+	rm -rf web-wasm/test
+
+# Not a target:
+common/common.crosstool:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+linux-x64-tinycc: linux-x64-tinycc/Dockerfile base
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'linux-x64-tinycc'
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 214):
+	mkdir -p $@/imagefiles && cp -r imagefiles $@/
+	$(DOCKER) build -t $(ORG)/$@:latest \
+		-t $(ORG)/$@:$(TAG) \
+		--build-arg IMAGE=$(ORG)/$@ \
+		--build-arg VCS_REF=`git rev-parse --short HEAD` \
+		--build-arg VCS_URL=`git config --get remote.origin.url` \
+		--build-arg BUILD_DATE=`date -u +"%Y-%m-%dT%H:%M:%SZ"` \
+		$@
+	rm -rf $@/imagefiles
+
+linux-mips-lts.test: linux-mips-lts test.prerequisites
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  Modification time never checked.
+#  File has not been updated.
+# automatic
+# @ := linux-mips-lts.test
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := test.prerequisites
+# automatic
+# | := 
+# automatic
+# < := 
+# automatic
+# ^ := test.prerequisites
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/9=11%
+#  recipe to execute (from 'Makefile', line 246):
+	$(DOCKER) run $(RM) $(ORG)/$(basename $@) > $(BIN)/dockcross-$(basename $@) \
+		&& chmod +x $(BIN)/dockcross-$(basename $@)
+	$(BIN)/dockcross-$(basename $@) python3 test/run.py $($@_ARGS)
+
+# Not a target:
+common/common.docker:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+ 
+manylinux2014-x64/Dockerfile: manylinux2014-x64/Dockerfile.in common/common.docker common/common.debian common/common.manylinux common/common.buildroot common/common.crosstool common/common.webassembly common/common.windows common/common-manylinux.crosstool common/common.dockcross common/common.label-and-env
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'manylinux2014-x64/'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 94):
+	sed \
+		-e '/common.docker/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.docker' \
+		-e '/common.debian/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.debian' \
+		-e '/common.manylinux/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.manylinux' \
+		-e '/common.crosstool/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.crosstool' \
+		-e '/common.buildroot/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.buildroot' \
+		-e '/common-manylinux.crosstool/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common-manylinux.crosstool' \
+		-e '/common.webassembly/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.webassembly' \
+		-e '/common.windows/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.windows' \
+		-e '/common.dockcross/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.dockcross' \
+		-e '/common.label-and-env/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.label-and-env' \
+		$< > $@
+
+# Not a target:
+manylinux2014-x64/Dockerfile.in:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+android-arm: android-arm/Dockerfile base
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'android-arm'
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 214):
+	mkdir -p $@/imagefiles && cp -r imagefiles $@/
+	$(DOCKER) build -t $(ORG)/$@:latest \
+		-t $(ORG)/$@:$(TAG) \
+		--build-arg IMAGE=$(ORG)/$@ \
+		--build-arg VCS_REF=`git rev-parse --short HEAD` \
+		--build-arg VCS_URL=`git config --get remote.origin.url` \
+		--build-arg BUILD_DATE=`date -u +"%Y-%m-%dT%H:%M:%SZ"` \
+		$@
+	rm -rf $@/imagefiles
+
+android-x86_64.test: android-x86_64 test.prerequisites
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  Modification time never checked.
+#  File has not been updated.
+# automatic
+# @ := android-x86_64.test
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := test.prerequisites
+# automatic
+# | := 
+# automatic
+# < := 
+# automatic
+# ^ := test.prerequisites
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/9=11%
+#  recipe to execute (from 'Makefile', line 246):
+	$(DOCKER) run $(RM) $(ORG)/$(basename $@) > $(BIN)/dockcross-$(basename $@) \
+		&& chmod +x $(BIN)/dockcross-$(basename $@)
+	$(BIN)/dockcross-$(basename $@) python3 test/run.py $($@_ARGS)
+
+linux-riscv32/Dockerfile: linux-riscv32/Dockerfile.in common/common.docker common/common.debian common/common.manylinux common/common.buildroot common/common.crosstool common/common.webassembly common/common.windows common/common-manylinux.crosstool common/common.dockcross common/common.label-and-env
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'linux-riscv32/'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 94):
+	sed \
+		-e '/common.docker/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.docker' \
+		-e '/common.debian/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.debian' \
+		-e '/common.manylinux/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.manylinux' \
+		-e '/common.crosstool/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.crosstool' \
+		-e '/common.buildroot/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.buildroot' \
+		-e '/common-manylinux.crosstool/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common-manylinux.crosstool' \
+		-e '/common.webassembly/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.webassembly' \
+		-e '/common.windows/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.windows' \
+		-e '/common.dockcross/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.dockcross' \
+		-e '/common.label-and-env/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.label-and-env' \
+		$< > $@
+
+android-x86_64: android-x86_64/Dockerfile base
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'android-x86_64'
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 214):
+	mkdir -p $@/imagefiles && cp -r imagefiles $@/
+	$(DOCKER) build -t $(ORG)/$@:latest \
+		-t $(ORG)/$@:$(TAG) \
+		--build-arg IMAGE=$(ORG)/$@ \
+		--build-arg VCS_REF=`git rev-parse --short HEAD` \
+		--build-arg VCS_URL=`git config --get remote.origin.url` \
+		--build-arg BUILD_DATE=`date -u +"%Y-%m-%dT%H:%M:%SZ"` \
+		$@
+	rm -rf $@/imagefiles
+
+web-wasm: web-wasm/Dockerfile
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 111):
+	mkdir -p $@/imagefiles && cp -r imagefiles $@/
+	cp -r test web-wasm/
+	$(DOCKER) build -t $(ORG)/web-wasm:latest \
+		-t $(ORG)/web-wasm:$(TAG) \
+		--build-arg IMAGE=$(ORG)/web-wasm \
+		--build-arg VCS_REF=`git rev-parse --short HEAD` \
+		--build-arg VCS_URL=`git config --get remote.origin.url` \
+		--build-arg BUILD_DATE=`date -u +"%Y-%m-%dT%H:%M:%SZ"` \
+		web-wasm
+	rm -rf web-wasm/test
+	rm -rf $@/imagefiles
+
+# Not a target:
+linux-riscv32/Dockerfile.in:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+linux-armv5-musl/Dockerfile.in:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+linux-arm64.test: linux-arm64 test.prerequisites
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  Modification time never checked.
+#  File has not been updated.
+# automatic
+# @ := linux-arm64.test
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := test.prerequisites
+# automatic
+# | := 
+# automatic
+# < := 
+# automatic
+# ^ := test.prerequisites
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/9=11%
+#  recipe to execute (from 'Makefile', line 246):
+	$(DOCKER) run $(RM) $(ORG)/$(basename $@) > $(BIN)/dockcross-$(basename $@) \
+		&& chmod +x $(BIN)/dockcross-$(basename $@)
+	$(BIN)/dockcross-$(basename $@) python3 test/run.py $($@_ARGS)
+
+manylinux2014-aarch64/Dockerfile: manylinux2014-aarch64/Dockerfile.in common/common.docker common/common.debian common/common.manylinux common/common.buildroot common/common.crosstool common/common.webassembly common/common.windows common/common-manylinux.crosstool common/common.dockcross common/common.label-and-env
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'manylinux2014-aarch64/'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 94):
+	sed \
+		-e '/common.docker/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.docker' \
+		-e '/common.debian/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.debian' \
+		-e '/common.manylinux/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.manylinux' \
+		-e '/common.crosstool/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.crosstool' \
+		-e '/common.buildroot/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.buildroot' \
+		-e '/common-manylinux.crosstool/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common-manylinux.crosstool' \
+		-e '/common.webassembly/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.webassembly' \
+		-e '/common.windows/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.windows' \
+		-e '/common.dockcross/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.dockcross' \
+		-e '/common.label-and-env/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.label-and-env' \
+		$< > $@
+
+linux-arm64: linux-arm64/Dockerfile base
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'linux-arm64'
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 214):
+	mkdir -p $@/imagefiles && cp -r imagefiles $@/
+	$(DOCKER) build -t $(ORG)/$@:latest \
+		-t $(ORG)/$@:$(TAG) \
+		--build-arg IMAGE=$(ORG)/$@ \
+		--build-arg VCS_REF=`git rev-parse --short HEAD` \
+		--build-arg VCS_URL=`git config --get remote.origin.url` \
+		--build-arg BUILD_DATE=`date -u +"%Y-%m-%dT%H:%M:%SZ"` \
+		$@
+	rm -rf $@/imagefiles
+
+# Not a target:
+manylinux2014-aarch64/Dockerfile.in:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+linux-armv7a.test: linux-armv7a test.prerequisites
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  Modification time never checked.
+#  File has not been updated.
+# automatic
+# @ := linux-armv7a.test
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := test.prerequisites
+# automatic
+# | := 
+# automatic
+# < := 
+# automatic
+# ^ := test.prerequisites
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/9=11%
+#  recipe to execute (from 'Makefile', line 246):
+	$(DOCKER) run $(RM) $(ORG)/$(basename $@) > $(BIN)/dockcross-$(basename $@) \
+		&& chmod +x $(BIN)/dockcross-$(basename $@)
+	$(BIN)/dockcross-$(basename $@) python3 test/run.py $($@_ARGS)
+
+linux-mips-lts: linux-mips-lts/Dockerfile base
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'linux-mips-lts'
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 214):
+	mkdir -p $@/imagefiles && cp -r imagefiles $@/
+	$(DOCKER) build -t $(ORG)/$@:latest \
+		-t $(ORG)/$@:$(TAG) \
+		--build-arg IMAGE=$(ORG)/$@ \
+		--build-arg VCS_REF=`git rev-parse --short HEAD` \
+		--build-arg VCS_URL=`git config --get remote.origin.url` \
+		--build-arg BUILD_DATE=`date -u +"%Y-%m-%dT%H:%M:%SZ"` \
+		$@
+	rm -rf $@/imagefiles
+
+linux-armv6-lts/Dockerfile: linux-armv6-lts/Dockerfile.in common/common.docker common/common.debian common/common.manylinux common/common.buildroot common/common.crosstool common/common.webassembly common/common.windows common/common-manylinux.crosstool common/common.dockcross common/common.label-and-env
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'linux-armv6-lts/'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 94):
+	sed \
+		-e '/common.docker/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.docker' \
+		-e '/common.debian/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.debian' \
+		-e '/common.manylinux/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.manylinux' \
+		-e '/common.crosstool/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.crosstool' \
+		-e '/common.buildroot/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.buildroot' \
+		-e '/common-manylinux.crosstool/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common-manylinux.crosstool' \
+		-e '/common.webassembly/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.webassembly' \
+		-e '/common.windows/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.windows' \
+		-e '/common.dockcross/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.dockcross' \
+		-e '/common.label-and-env/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.label-and-env' \
+		$< > $@
+
+linux-armv5/Dockerfile: linux-armv5/Dockerfile.in common/common.docker common/common.debian common/common.manylinux common/common.buildroot common/common.crosstool common/common.webassembly common/common.windows common/common-manylinux.crosstool common/common.dockcross common/common.label-and-env
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'linux-armv5/'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 94):
+	sed \
+		-e '/common.docker/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.docker' \
+		-e '/common.debian/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.debian' \
+		-e '/common.manylinux/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.manylinux' \
+		-e '/common.crosstool/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.crosstool' \
+		-e '/common.buildroot/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.buildroot' \
+		-e '/common-manylinux.crosstool/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common-manylinux.crosstool' \
+		-e '/common.webassembly/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.webassembly' \
+		-e '/common.windows/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.windows' \
+		-e '/common.dockcross/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.dockcross' \
+		-e '/common.label-and-env/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.label-and-env' \
+		$< > $@
+
+# Not a target:
+linux-armv6-lts/Dockerfile.in:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+linux-x86/Dockerfile.in:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+linux-armv7.test: linux-armv7 test.prerequisites
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  Modification time never checked.
+#  File has not been updated.
+# automatic
+# @ := linux-armv7.test
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := test.prerequisites
+# automatic
+# | := 
+# automatic
+# < := 
+# automatic
+# ^ := test.prerequisites
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/9=11%
+#  recipe to execute (from 'Makefile', line 246):
+	$(DOCKER) run $(RM) $(ORG)/$(basename $@) > $(BIN)/dockcross-$(basename $@) \
+		&& chmod +x $(BIN)/dockcross-$(basename $@)
+	$(BIN)/dockcross-$(basename $@) python3 test/run.py $($@_ARGS)
+
+linux-armv5-musl/Dockerfile: linux-armv5-musl/Dockerfile.in common/common.docker common/common.debian common/common.manylinux common/common.buildroot common/common.crosstool common/common.webassembly common/common.windows common/common-manylinux.crosstool common/common.dockcross common/common.label-and-env
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'linux-armv5-musl/'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 94):
+ 
+	sed \
+		-e '/common.docker/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.docker' \
+		-e '/common.debian/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.debian' \
+		-e '/common.manylinux/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.manylinux' \
+		-e '/common.crosstool/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.crosstool' \
+		-e '/common.buildroot/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.buildroot' \
+		-e '/common-manylinux.crosstool/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common-manylinux.crosstool' \
+		-e '/common.webassembly/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.webassembly' \
+		-e '/common.windows/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.windows' \
+		-e '/common.dockcross/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.dockcross' \
+		-e '/common.label-and-env/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.label-and-env' \
+		$< > $@
+
+manylinux2014-x64.test: manylinux2014-x64 test.prerequisites
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 169):
+	$(DOCKER) run $(RM) $(ORG)/manylinux2014-x64 > $(BIN)/dockcross-manylinux2014-x64 \
+		&& chmod +x $(BIN)/dockcross-manylinux2014-x64
+	$(BIN)/dockcross-manylinux2014-x64 /opt/python/cp38-cp38/bin/python test/run.py
+
+linux-arm64-full: linux-arm64-full/Dockerfile base
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'linux-arm64-full'
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 214):
+	mkdir -p $@/imagefiles && cp -r imagefiles $@/
+	$(DOCKER) build -t $(ORG)/$@:latest \
+		-t $(ORG)/$@:$(TAG) \
+		--build-arg IMAGE=$(ORG)/$@ \
+		--build-arg VCS_REF=`git rev-parse --short HEAD` \
+		--build-arg VCS_URL=`git config --get remote.origin.url` \
+		--build-arg BUILD_DATE=`date -u +"%Y-%m-%dT%H:%M:%SZ"` \
+		$@
+	rm -rf $@/imagefiles
+
+# Not a target:
+common/common.debian:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+linux-armv7a: linux-armv7a/Dockerfile base
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'linux-armv7a'
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 214):
+	mkdir -p $@/imagefiles && cp -r imagefiles $@/
+	$(DOCKER) build -t $(ORG)/$@:latest \
+		-t $(ORG)/$@:$(TAG) \
+		--build-arg IMAGE=$(ORG)/$@ \
+		--build-arg VCS_REF=`git rev-parse --short HEAD` \
+		--build-arg VCS_URL=`git config --get remote.origin.url` \
+		--build-arg BUILD_DATE=`date -u +"%Y-%m-%dT%H:%M:%SZ"` \
+		$@
+	rm -rf $@/imagefiles
+
+manylinux2014-x64: manylinux2014-x64/Dockerfile
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 158):
+	mkdir -p $@/imagefiles && cp -r imagefiles $@/
+	$(DOCKER) build -t $(ORG)/manylinux2014-x64:latest \
+		-t $(ORG)/manylinux2014-x64:$(TAG) \
+		--build-arg IMAGE=$(ORG)/manylinux2014-x64 \
+		--build-arg VCS_REF=`git rev-parse --short HEAD` \
+		--build-arg VCS_URL=`git config --get remote.origin.url` \
+		--build-arg BUILD_DATE=`date -u +"%Y-%m-%dT%H:%M:%SZ"` \
+		-f manylinux2014-x64/Dockerfile .
+	rm -rf $@/imagefiles
+
+linux-riscv64/Dockerfile: linux-riscv64/Dockerfile.in common/common.docker common/common.debian common/common.manylinux common/common.buildroot common/common.crosstool common/common.webassembly common/common.windows common/common-manylinux.crosstool common/common.dockcross common/common.label-and-env
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'linux-riscv64/'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 94):
+	sed \
+		-e '/common.docker/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.docker' \
+		-e '/common.debian/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.debian' \
+		-e '/common.manylinux/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.manylinux' \
+		-e '/common.crosstool/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.crosstool' \
+		-e '/common.buildroot/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.buildroot' \
+		-e '/common-manylinux.crosstool/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common-manylinux.crosstool' \
+		-e '/common.webassembly/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.webassembly' \
+		-e '/common.windows/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.windows' \
+		-e '/common.dockcross/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.dockcross' \
+		-e '/common.label-and-env/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.label-and-env' \
+		$< > $@
+
+windows-static-x64-posix/Dockerfile: windows-static-x64-posix/Dockerfile.in common/common.docker common/common.debian common/common.manylinux common/common.buildroot common/common.crosstool common/common.webassembly common/common.windows common/common-manylinux.crosstool common/common.dockcross common/common.label-and-env
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'windows-static-x64-posix/'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 94):
+	sed \
+		-e '/common.docker/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.docker' \
+		-e '/common.debian/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.debian' \
+		-e '/common.manylinux/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.manylinux' \
+		-e '/common.crosstool/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.crosstool' \
+		-e '/common.buildroot/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.buildroot' \
+		-e '/common-manylinux.crosstool/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common-manylinux.crosstool' \
+		-e '/common.webassembly/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.webassembly' \
+		-e '/common.windows/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.windows' \
+		-e '/common.dockcross/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.dockcross' \
+		-e '/common.label-and-env/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.label-and-env' \
+		$< > $@
+
+test.prerequisites:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 254):
+	mkdir -p $(BIN)
+
+display_images:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 205):
+	for image in $(IMAGES); do echo $$image; done
+
+linux-riscv32.test: linux-riscv32 test.prerequisites
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  Modification time never checked.
+#  File has not been updated.
+# automatic
+# @ := linux-riscv32.test
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := test.prerequisites
+# automatic
+# | := 
+# automatic
+# < := 
+# automatic
+# ^ := test.prerequisites
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/9=11%
+#  recipe to execute (from 'Makefile', line 246):
+	$(DOCKER) run $(RM) $(ORG)/$(basename $@) > $(BIN)/dockcross-$(basename $@) \
+		&& chmod +x $(BIN)/dockcross-$(basename $@)
+	$(BIN)/dockcross-$(basename $@) python3 test/run.py $($@_ARGS)
+
+# Not a target:
+linux-riscv64/Dockerfile.in:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+windows-static-x64-posix/Dockerfile.in:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+android-x86/Dockerfile:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+linux-riscv32: linux-riscv32/Dockerfile base
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'linux-riscv32'
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 214):
+	mkdir -p $@/imagefiles && cp -r imagefiles $@/
+	$(DOCKER) build -t $(ORG)/$@:latest \
+		-t $(ORG)/$@:$(TAG) \
+		--build-arg IMAGE=$(ORG)/$@ \
+		--build-arg VCS_REF=`git rev-parse --short HEAD` \
+		--build-arg VCS_URL=`git config --get remote.origin.url` \
+		--build-arg BUILD_DATE=`date -u +"%Y-%m-%dT%H:%M:%SZ"` \
+		$@
+	rm -rf $@/imagefiles
+
+bash-check:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 238):
+	find . -type f \( -name "*.sh" -o -name "*.bash" \) -print0 | xargs -0 -P"$(shell nproc)" -I{} \
+		$(SHELLCHECK) --check-sourced --color=auto --format=gcc --severity=warning --shell=bash --enable=all "{}"
+
+linux-xtensa-uclibc/Dockerfile: linux-xtensa-uclibc/Dockerfile.in common/common.docker common/common.debian common/common.manylinux common/common.buildroot common/common.crosstool common/common.webassembly common/common.windows common/common-manylinux.crosstool common/common.dockcross common/common.label-and-env
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'linux-xtensa-uclibc/'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 94):
+	sed \
+		-e '/common.docker/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.docker' \
+		-e '/common.debian/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.debian' \
+		-e '/common.manylinux/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.manylinux' \
+		-e '/common.crosstool/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.crosstool' \
+		-e '/common.buildroot/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.buildroot' \
+		-e '/common-manylinux.crosstool/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common-manylinux.crosstool' \
+		-e '/common.webassembly/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.webassembly' \
+		-e '/common.windows/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.windows' \
+		-e '/common.dockcross/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.dockcross' \
+		-e '/common.label-and-env/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.label-and-env' \
+		$< > $@
+
+manylinux2014-aarch64.test: manylinux2014-aarch64 test.prerequisites
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 150):
+	$(DOCKER) run $(RM) $(ORG)/manylinux2014-aarch64 > $(BIN)/dockcross-manylinux2014-aarch64 \
+		&& chmod +x $(BIN)/dockcross-manylinux2014-aarch64
+	$(BIN)/dockcross-manylinux2014-aarch64 /opt/python/cp38-cp38/bin/python test/run.py
+
+# Not a target:
+linux-xtensa-uclibc/Dockerfile.in:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+manylinux2014-x86/Dockerfile: manylinux2014-x86/Dockerfile.in common/common.docker common/common.debian common/common.manylinux common/common.buildroot common/common.crosstool common/common.webassembly common/common.windows common/common-manylinux.crosstool common/common.dockcross common/common.label-and-env
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'manylinux2014-x86/'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 94):
+	sed \
+		-e '/common.docker/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.docker' \
+		-e '/common.debian/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.debian' \
+		-e '/common.manylinux/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.manylinux' \
+		-e '/common.crosstool/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.crosstool' \
+		-e '/common.buildroot/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.buildroot' \
+		-e '/common-manylinux.crosstool/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common-manylinux.crosstool' \
+		-e '/common.webassembly/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.webassembly' \
+		-e '/common.windows/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.windows' \
+		-e '/common.dockcross/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.dockcross' \
+		-e '/common.label-and-env/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.label-and-env' \
+		$< > $@
+
+manylinux2014-aarch64: manylinux2014-aarch64/Dockerfile
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 133):
+	@# Register qemu
+	docker run --rm --privileged hypriot/qemu-register
+	@# Get libstdc++ from quay.io/pypa/manylinux2014_aarch64 container
+	docker run -v `pwd`:/host --rm -e LIB_PATH=/host/$@/xc_script/ quay.io/pypa/manylinux2014_aarch64 bash -c "PASS=1 /host/$@/xc_script/docker_setup_scrpits/copy_libstd.sh"
+	mkdir -p $@/imagefiles && cp -r imagefiles $@/
+	$(DOCKER) build -t $(ORG)/manylinux2014-aarch64:latest \
+		-t $(ORG)/manylinux2014-aarch64:$(TAG) \
+		--build-arg IMAGE=$(ORG)/manylinux2014-aarch64 \
+		--build-arg VCS_REF=`git rev-parse --short HEAD` \
+		--build-arg VCS_URL=`git config --get remote.origin.url` \
+		--build-arg BUILD_DATE=`date -u +"%Y-%m-%dT%H:%M:%SZ"` \
+		-f manylinux2014-aarch64/Dockerfile .
+	rm -rf $@/imagefiles
+	@# libstdc++ is coppied into image, now remove it
+	docker run -v `pwd`:/host --rm quay.io/pypa/manylinux2014_aarch64 bash -c "rm -rf /host/$@/xc_script/usr"
+
+# Not a target:
+manylinux2014-x86/Dockerfile.in:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+linux-armv7l-musl/Dockerfile: linux-armv7l-musl/Dockerfile.in common/common.docker common/common.debian common/common.manylinux common/common.buildroot common/common.crosstool common/common.webassembly common/common.windows common/common-manylinux.crosstool common/common.dockcross common/common.label-and-env
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'linux-armv7l-musl/'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 94):
+	sed \
+		-e '/common.docker/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.docker' \
+		-e '/common.debian/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.debian' \
+		-e '/common.manylinux/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.manylinux' \
+		-e '/common.crosstool/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.crosstool' \
+		-e '/common.buildroot/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.buildroot' \
+		-e '/common-manylinux.crosstool/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common-manylinux.crosstool' \
+		-e '/common.webassembly/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.webassembly' \
+		-e '/common.windows/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.windows' \
+		-e '/common.dockcross/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.dockcross' \
+		-e '/common.label-and-env/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.label-and-env' \
+		$< > $@
+
+linux-armv6-lts.test: linux-armv6-lts test.prerequisites
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  Modification time never checked.
+#  File has not been updated.
+# automatic
+# @ := linux-armv6-lts.test
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := test.prerequisites
+# automatic
+# | := 
+# automatic
+# < := 
+# automatic
+# ^ := test.prerequisites
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/9=11%
+#  recipe to execute (from 'Makefile', line 246):
+	$(DOCKER) run $(RM) $(ORG)/$(basename $@) > $(BIN)/dockcross-$(basename $@) \
+		&& chmod +x $(BIN)/dockcross-$(basename $@)
+	$(BIN)/dockcross-$(basename $@) python3 test/run.py $($@_ARGS)
+
+# Not a target:
+linux-armv7l-musl/Dockerfile.in:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+windows-armv7/Dockerfile: windows-armv7/Dockerfile.in common/common.docker common/common.debian common/common.manylinux common/common.buildroot common/common.crosstool common/common.webassembly common/common.windows common/common-manylinux.crosstool common/common.dockcross common/common.label-and-env
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: 'windows-armv7/'
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 94):
+ 
+	sed \
+		-e '/common.docker/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.docker' \
+		-e '/common.debian/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.debian' \
+		-e '/common.manylinux/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.manylinux' \
+		-e '/common.crosstool/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.crosstool' \
+		-e '/common.buildroot/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.buildroot' \
+		-e '/common-manylinux.crosstool/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common-manylinux.crosstool' \
+		-e '/common.webassembly/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.webassembly' \
+		-e '/common.windows/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.windows' \
+		-e '/common.dockcross/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.dockcross' \
+		-e '/common.label-and-env/ r $(DOCKER_COMPOSITE_FOLDER_PATH)common.label-and-env' \
+		$< > $@
+
+# files hash-table stats:
+# Load=208/1024=20%, Rehash=0, Collisions=124/1164=11%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 269 / storage = 5450 B / avg = 20 B
+# current buf: size = 8162 B / used = 5450 B / count = 269 / avg = 20 B
+
+# strcache performance: lookups = 837 / hit rate = 67%
+# hash-table stats:
+# Load=269/8192=3%, Rehash=0, Collisions=12/837=1%
+# Finished Make data base on Mon May 23 14:32:11 2022
+
+ 
